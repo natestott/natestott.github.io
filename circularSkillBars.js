@@ -1,3 +1,5 @@
+//LICENSED TO NATE STOTT//
+
 (function(factory) {
     factory($);
 })
