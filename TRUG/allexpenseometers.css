@@ -1,0 +1,4660 @@
+#expenseometer-0-section,
+#expenseometer-1-section,
+#expenseometer-2-section,
+#expenseometer-3-section,
+#expenseometer-4-section,
+#expenseometer-5-section,
+#expenseometer-6-section,
+#expenseometer-7-section,
+#expenseometer-8-section,
+#expenseometer-9-section,
+#expenseometer-10-section,
+#expenseometer-11-section,
+#expenseometer-12-section,
+#expenseometer-13-section,
+#expenseometer-14-section,
+#expenseometer-15-section,
+#expenseometer-16-section,
+#expenseometer-17-section,
+#expenseometer-18-section,
+#expenseometer-19-section,
+#expenseometer-20-section,
+#expenseometer-21-section,
+#expenseometer-22-section,
+#expenseometer-23-section,
+#expenseometer-24-section,
+#expenseometer-25-section,
+#expenseometer-26-section {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* NAME */
+#expenseometer-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.expenseometer.go { 
+width: 71%;
+animation:expenseometer 2s ease-out;
+}
+
+@keyframes expenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-moz-keyframes expenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-webkit-keyframes expenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+
+}
+@media (max-width : 667px) {
+.expenseometer {
+width:71%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF NAME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WARWICK */
+#expenseometer-0-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.waexpenseometer.go { 
+width: 71%;
+animation:waexpenseometer 2s ease-out;
+}
+
+@keyframes waexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-moz-keyframes waexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-webkit-keyframes waexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+
+}
+@media (max-width : 667px) {
+.waexpenseometer {
+width:71%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF WARWICK */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LANCASTER */
+#expenseometer-1-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.laexpenseometer.go { 
+width: 61%;
+animation:laexpenseometer 2s ease-out;
+}
+
+@keyframes laexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-moz-keyframes laexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-webkit-keyframes laexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+
+}
+@media (max-width : 667px) {
+.laexpenseometer {
+width:61%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF LANCASTER */
+
+
+
+
+
+
+
+
+
+
+/* DURHAM */
+#expenseometer-2-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.duexpenseometer.go { 
+width: 61%;
+animation:duexpenseometer 2s ease-out;
+}
+
+@keyframes duexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-moz-keyframes duexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-webkit-keyframes duexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+
+}
+@media (max-width : 667px) {
+.duexpenseometer {
+width:61%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF DURHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXETER */
+#expenseometer-3-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.exexpenseometer.go { 
+width: 77%;
+animation:exexpenseometer 2s ease-out;
+}
+
+@keyframes exexpenseometer { 
+0%{ width:0px;} 
+100%{ width:77%;}
+}
+
+@-moz-keyframes exexpenseometer { 
+0%{ width:0px;} 
+100%{ width:77%;}
+}
+
+@-webkit-keyframes exexpenseometer { 
+0%{ width:0px;} 
+100%{ width:77%;}
+
+}
+@media (max-width : 667px) {
+.exexpenseometer {
+width:77%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF EXETER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAMBRIDGE WHICH IS CAM NOT CA BTW */
+#expenseometer-4-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.camexpenseometer.go { 
+width: 71%;
+animation:camexpenseometer 2s ease-out;
+}
+
+@keyframes camexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-moz-keyframes camexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-webkit-keyframes camexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+
+}
+@media (max-width : 667px) {
+.camexpenseometer {
+width:17%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF CAMBRIDGE */
+
+
+
+
+
+
+
+
+
+
+
+
+/* UWE */
+#expenseometer-5-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.uwexpenseometer.go { 
+width: 72%;
+animation:uwexpenseometer 2s ease-out;
+}
+
+@keyframes uwexpenseometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+
+@-moz-keyframes uwexpenseometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+
+@-webkit-keyframes uwexpenseometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+
+}
+@media (max-width : 667px) {
+.uwexpenseometer {
+width:72%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF UWE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PLYMOUTH */
+#expenseometer-6-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.plexpenseometer.go { 
+width: 54%;
+animation:plexpenseometer 2s ease-out;
+}
+
+@keyframes plexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-moz-keyframes plexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-webkit-keyframes plexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+
+}
+@media (max-width : 667px) {
+.plexpenseometer {
+width:54%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF PLYMOUTH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOUGHBOROUGH */
+#expenseometer-7-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.loexpenseometer.go { 
+width: 54%;
+animation:wloexpenseometer 2s ease-out;
+}
+
+@keyframes loexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-moz-keyframes loexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-webkit-keyframes loexpenseometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+
+}
+@media (max-width : 667px) {
+.loexpenseometer {
+width:54%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF LOUGHBOROUGH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTTINGHAM */
+#expenseometer-8-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.noexpenseometer.go { 
+width: 60%;
+animation:noexpenseometer 2s ease-out;
+}
+
+@keyframes noexpenseometer { 
+0%{ width:0px;} 
+100%{ width:60%;}
+}
+
+@-moz-keyframes noexpenseometer { 
+0%{ width:0px;} 
+100%{ width:60%;}
+}
+
+@-webkit-keyframes noexpenseometer { 
+0%{ width:0px;} 
+100%{ width:60%;}
+
+}
+@media (max-width : 667px) {
+.noexpenseometer {
+width:60%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF NOTTINGHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BIRMINGHAM */
+#expenseometer-9-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.biexpenseometer.go { 
+width: 65%;
+animation:biexpenseometer 2s ease-out;
+}
+
+@keyframes biexpenseometer { 
+0%{ width:0px;} 
+100%{ width:65%;}
+}
+
+@-moz-keyframes biexpenseometer { 
+0%{ width:0px;} 
+100%{ width:65%;}
+}
+
+@-webkit-keyframes biexpenseometer { 
+0%{ width:0px;} 
+100%{ width:65%;}
+
+}
+@media (max-width : 667px) {
+.biexpenseometer {
+width:65%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF BIRMINGHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BRISTOL */
+#expenseometer-10-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.brexpenseometer.go { 
+width: 78%;
+animation:expenseometer 2s ease-out;
+}
+
+@keyframes brexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+
+@-moz-keyframes brexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+
+@-webkit-keyframes brexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+
+}
+@media (max-width : 667px) {
+.brexpenseometer {
+width:78%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF BRISTOL */
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEEDS */
+#expenseometer-11-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.leexpenseometer.go { 
+width: 59%;
+animation:leexpenseometer 2s ease-out;
+}
+
+@keyframes leexpenseometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+
+@-moz-keyframes leexpenseometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+
+@-webkit-keyframes leexpenseometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+
+}
+@media (max-width : 667px) {
+.leexpenseometer {
+width:59%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF LEEDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARDIFF */
+#expenseometer-12-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.caexpenseometer.go { 
+width: 48%;
+animation:caexpenseometer 2s ease-out;
+}
+
+@keyframes caexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+
+@-moz-keyframes caexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+
+@-webkit-keyframes caexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+
+}
+@media (max-width : 667px) {
+.caexpenseometer {
+width:48%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF CARDIFF */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOUTHAMPTON */
+#expenseometer-13-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.soexpenseometer.go { 
+width: 61%;
+animation:soexpenseometer 2s ease-out;
+}
+
+@keyframes soexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-moz-keyframes soexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-webkit-keyframes soexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+
+}
+@media (max-width : 667px) {
+.soexpenseometer {
+width:61%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF SOUTHAMPTON */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OXFORD */
+#expenseometer-14-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.oxexpenseometer.go { 
+width: 78%;
+animation:oxexpenseometer 2s ease-out;
+}
+
+@keyframes oxexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+
+@-moz-keyframes oxexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+
+@-webkit-keyframes oxexpenseometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+
+}
+@media (max-width : 667px) {
+.oxexpenseometer {
+width:78%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF OXFORD */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRENT */
+#expenseometer-15-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.trexpenseometer.go { 
+width: 61%;
+animation:trexpenseometer 2s ease-out;
+}
+
+@keyframes trexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-moz-keyframes trexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-webkit-keyframes trexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+
+}
+@media (max-width : 667px) {
+.trexpenseometer {
+width:61%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF TRENT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPERIAL */
+#expenseometer-16-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.imexpenseometer.go { 
+width: 86%;
+animation:imexpenseometer 2s ease-out;
+}
+
+@keyframes imexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-moz-keyframes imexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-webkit-keyframes imexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+
+}
+@media (max-width : 667px) {
+.imexpenseometer {
+width:86%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF IMPERIAL */
+
+
+
+
+
+
+
+
+
+
+
+
+/* READING */
+#expenseometer-17-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.reexpenseometer.go { 
+width: 71%;
+animation:reexpenseometer 2s ease-out;
+}
+
+@keyframes reexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-moz-keyframes reexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-webkit-keyframes reexpenseometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+
+}
+@media (max-width : 667px) {
+.reexpenseometer {
+width:71%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF READING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ST ANDREWS */
+#expenseometer-18-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.stexpenseometer.go { 
+width: 86%;
+animation:stexpenseometer 2s ease-out;
+}
+
+@keyframes stexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-moz-keyframes stexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-webkit-keyframes stexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+
+}
+@media (max-width : 667px) {
+.stexpenseometer {
+width:86%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF ST ANDREWS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BATH */
+#expenseometer-19-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.baexpenseometer.go { 
+width: 81%;
+animation:baexpenseometer 2s ease-out;
+}
+
+@keyframes baexpenseometer { 
+0%{ width:0px;} 
+100%{ width:81%;}
+}
+
+@-moz-keyframes baexpenseometer { 
+0%{ width:0px;} 
+100%{ width:81%;}
+}
+
+@-webkit-keyframes baexpenseometer { 
+0%{ width:0px;} 
+100%{ width:81%;}
+
+}
+@media (max-width : 667px) {
+.baexpenseometer {
+width:81%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF BATH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESSEX */
+#expenseometer-20-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.esexpenseometer.go { 
+width: 69%;
+animation:esexpenseometer 2s ease-out;
+}
+
+@keyframes esexpenseometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+
+@-moz-keyframes esexpenseometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+
+@-webkit-keyframes esexpenseometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+
+}
+@media (max-width : 667px) {
+.esexpenseometer {
+width:69%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF ESSEX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEWCASTLE */
+#expenseometer-21-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.neexpenseometer.go { 
+width: 47%;
+animation:neexpenseometer 2s ease-out;
+}
+
+@keyframes neexpenseometer { 
+0%{ width:0px;} 
+100%{ width:47%;}
+}
+
+@-moz-keyframes neexpenseometer { 
+0%{ width:0px;} 
+100%{ width:47%;}
+}
+
+@-webkit-keyframes neexpenseometer { 
+0%{ width:0px;} 
+100%{ width:47%;}
+
+}
+@media (max-width : 667px) {
+.neexpenseometer {
+width:47%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF NEWCASTLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PORTSMOUTH */
+#expenseometer-22-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.poexpenseometer.go { 
+width: 53%;
+animation:poexpenseometer 2s ease-out;
+}
+
+@keyframes poexpenseometer { 
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+
+@-moz-keyframes poexpenseometer { 
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+
+@-webkit-keyframes poexpenseometer { 
+0%{ width:0px;} 
+100%{ width:53%;}
+
+}
+@media (max-width : 667px) {
+.poexpenseometer {
+width:53%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF PORTSMOUTH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OXFORD BROOKES NOTE IT IS BRO */
+#expenseometer-23-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.broexpenseometer.go { 
+width: 86%;
+animation:broexpenseometer 2s ease-out;
+}
+
+@keyframes broexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-moz-keyframes broexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+
+@-webkit-keyframes broexpenseometer { 
+0%{ width:0px;} 
+100%{ width:86%;}
+
+}
+@media (max-width : 667px) {
+.broexpenseometer {
+width:86%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF OXFORD BROOKES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UEA */
+#expenseometer-24-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.ueaexpenseometer.go { 
+width: 61%;
+animation:ueaexpenseometer 2s ease-out;
+}
+
+@keyframes ueaexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-moz-keyframes ueaexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+}
+
+@-webkit-keyframes ueaexpenseometer { 
+0%{ width:0px;} 
+100%{ width:61%;}
+
+}
+@media (max-width : 667px) {
+.ueaexpenseometer {
+width:61%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF UEA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SHEFFIELD */
+#expenseometer-25-section
+
+
+ {  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9  ;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #ffff 
+  }
+  p{
+    color: #52B3D9 
+  }
+h3 {
+    color: #52B3D9 ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+   /* EXPENSE-O-METER BAR */
+.expenseometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222 
+}
+p {
+font-size: 15px;
+line-height: 15px !important;
+position:relative; 
+top: 0px;
+padding: 13px 0px 2px 0px;
+height: 25px;
+color: #fff;
+font-weight: 700;
+font-style: initial;
+letter-spacing: -0.5px;
+width: 0px;
+border-radius: 3px;
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+     h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "VERY PRICEY";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+.shexpenseometer.go { 
+width: 48%;
+animation:shexpenseometer 2s ease-out;
+}
+
+@keyframes shexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+
+@-moz-keyframes shexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+
+@-webkit-keyframes shexpenseometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+
+}
+@media (max-width : 667px) {
+.shexpenseometer {
+width:48%;
+animation:bar1 2s ease-out;
+}
+}
+}
+}
+/* END OF SHEFFIELD */
+
+
+
+
+
+
+
+
+
+
+
+
+

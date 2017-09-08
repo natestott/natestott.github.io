@@ -1,0 +1,360 @@
+
+/* SECOND YEAR HOUSING */
+#second-year-housing-section,
+#second-year-housing-0-section,
+#second-year-housing-1-section,
+#second-year-housing-2-section,
+#second-year-housing-3-section,
+#second-year-housing-4-section,
+#second-year-housing-5-section,
+#second-year-housing-6-section,
+#second-year-housing-7-section,
+#second-year-housing-8-section,
+#second-year-housing-9-section,
+#second-year-housing-10-section,
+#second-year-housing-11-section,
+#second-year-housing-12-section,
+#second-year-housing-13-section,
+#second-year-housing-14-section,
+#second-year-housing-15-section,
+#second-year-housing-16-section,
+#second-year-housing-17-section,
+#second-year-housing-18-section,
+#second-year-housing-19-section,
+#second-year-housing-20-section,
+#second-year-housing-21-section,
+#second-year-housing-22-section,
+#second-year-housing-23-section,
+#second-year-housing-24-section,
+#second-year-housing-25-section,
+#second-year-housing-26-section,
+#second-year-housing-27-section,
+#second-year-housing-28-section,
+#second-year-housing-29-section,
+#second-year-housing-30-section,
+#second-year-housing-31-section,
+#second-year-housing-32-section,
+#second-year-housing-33-section,
+#second-year-housing-34-section,
+#second-year-housing-35-section,
+#second-year-housing-36-section,
+#second-year-housing-37-section,
+#second-year-housing-38-section,
+#second-year-housing-39-section,
+#second-year-housing-40-section,
+#second-year-housing-41-section,
+#second-year-housing-42-section,
+#second-year-housing-43-section,
+#second-year-housing-44-section,
+#second-year-housing-45-section,
+#second-year-housing-46-section,
+#second-year-housing-47-section,
+#second-year-housing-48-section,
+#second-year-housing-49-section,
+#second-year-housing-50-section,
+#second-year-housing-51-section,
+#second-year-housing-52-section,
+#second-year-housing-53-section,
+#second-year-housing-54-section,
+#second-year-housing-55-section,
+#second-year-housing-56-section,
+#second-year-housing-57-section,
+#second-year-housing-58-section,
+#second-year-housing-59-section,
+#second-year-housing-60-section,
+#second-year-housing-61-section,
+#second-year-housing-62-section,
+#second-year-housing-63-section,
+#second-year-housing-64-section,
+#second-year-housing-65-section,
+#second-year-housing-66-section,
+#second-year-housing-67-section,
+#second-year-housing-68-section,
+#second-year-housing-69-section,
+#second-year-housing-70-section,
+#second-year-housing-71-section,
+#second-year-housing-72-section,
+#second-year-housing-73-section,
+#second-year-housing-74-section,
+#second-year-housing-75-section,
+#second-year-housing-76-section,
+#second-year-housing-77-section,
+#second-year-housing-78-section,
+#second-year-housing-79-section,
+#second-year-housing-80-section,
+#second-year-housing-81-section,
+#second-year-housing-82-section,
+#second-year-housing-83-section,
+#second-year-housing-84-section,
+#second-year-housing-85-section,
+#second-year-housing-86-section,
+#second-year-housing-87-section,
+#second-year-housing-88-section,
+#second-year-housing-89-section,
+#second-year-housing-90-section,
+#second-year-housing-91-section,
+#second-year-housing-92-section,
+#second-year-housing-93-section,
+#second-year-housing-94-section,
+#second-year-housing-95-section,
+#second-year-housing-96-section,
+#second-year-housing-97-section,
+#second-year-housing-98-section,
+#second-year-housing-99-section,
+#second-year-housing-100-section
+
+{
+  h2{
+    font-size: 70px;
+    text-align: center !important;
+    text-transform: uppercase;
+      strong{
+        font-size: 50px;
+      }
+  }
+  @media (max-width: 667px) {
+  h2 {
+  font-size: 40px !important;
+  strong {
+  font-size: 20px !important
+  }
+  }
+  }
+}
+/* END OF SECOND YEAR HOUSING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOUSING INFO */
+#housing-info-section,
+#housing-info-0-section,
+#housing-info-1-section,
+#housing-info-2-section,
+#housing-info-3-section,
+#housing-info-4-section,
+#housing-info-5-section,
+#housing-info-6-section,
+#housing-info-7-section,
+#housing-info-8-section,
+#housing-info-9-section,
+#housing-info-10-section,
+#housing-info-11-section,
+#housing-info-12-section,
+#housing-info-13-section,
+#housing-info-14-section,
+#housing-info-15-section,
+#housing-info-16-section,
+#housing-info-17-section,
+#housing-info-18-section,
+#housing-info-19-section,
+#housing-info-20-section,
+#housing-info-21-section,
+#housing-info-22-section,
+#housing-info-23-section,
+#housing-info-24-section,
+#housing-info-25-section,
+#housing-info-26-section,
+#housing-info-27-section,
+#housing-info-28-section,
+#housing-info-29-section,
+#housing-info-30-section,
+#housing-info-31-section,
+#housing-info-32-section,
+#housing-info-33-section,
+#housing-info-34-section,
+#housing-info-35-section,
+#housing-info-36-section,
+#housing-info-37-section,
+#housing-info-38-section,
+#housing-info-39-section,
+#housing-info-40-section,
+#housing-info-41-section,
+#housing-info-42-section,
+#housing-info-43-section,
+#housing-info-44-section,
+#housing-info-45-section,
+#housing-info-46-section,
+#housing-info-47-section,
+#housing-info-48-section,
+#housing-info-49-section,
+#housing-info-50-section,
+#housing-info-51-section,
+#housing-info-52-section,
+#housing-info-53-section,
+#housing-info-54-section,
+#housing-info-55-section,
+#housing-info-56-section,
+#housing-info-57-section,
+#housing-info-58-section,
+#housing-info-59-section,
+#housing-info-60-section,
+#housing-info-61-section,
+#housing-info-62-section,
+#housing-info-63-section,
+#housing-info-64-section,
+#housing-info-65-section,
+#housing-info-66-section,
+#housing-info-67-section,
+#housing-info-68-section,
+#housing-info-69-section,
+#housing-info-70-section,
+#housing-info-71-section,
+#housing-info-72-section,
+#housing-info-73-section,
+#housing-info-74-section,
+#housing-info-75-section,
+#housing-info-76-section,
+#housing-info-77-section,
+#housing-info-78-section,
+#housing-info-79-section,
+#housing-info-80-section,
+#housing-info-81-section,
+#housing-info-82-section,
+#housing-info-83-section,
+#housing-info-84-section,
+#housing-info-85-section,
+#housing-info-86-section,
+#housing-info-87-section,
+#housing-info-88-section,
+#housing-info-89-section,
+#housing-info-90-section,
+#housing-info-91-section,
+#housing-info-92-section,
+#housing-info-93-section,
+#housing-info-94-section,
+#housing-info-95-section,
+#housing-info-96-section,
+#housing-info-97-section,
+#housing-info-98-section,
+#housing-info-99-section,
+#housing-info-100-section
+
+{
+  background: #52B3D9;
+  h2{
+    color: #F4D03F   ;
+    font-size: 30px !important;
+    line-height: 1;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h3{
+    text-transform: none;
+    color: #F4D03F ;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    strong{
+      font-size: 70px;
+      color: #F64747    
+    }
+  }
+  p{
+    color: #F4D03F 
+  }
+    /* DROPDOWN */
+.sqs-block-markdown {
+  /* LIST ICONS */
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 20px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;
+   width: 2em;
+   height: 2em;
+   text-align: center;
+   display: inline-block;
+ }
+      /* END OF LIST ICONS */
+  h2 {
+    font-size: 16px !important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F      ;
+    background: #F4D03F         ;
+    color: #222    ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+  p {
+    padding: 20px 30px;
+    background: #f7f7f7;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .dropcontent {
+    
+  .housinginfo {
+    color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: left;
+          text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+  }
+    }
+  }
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 1px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+}
+/* END OF HOUSING INFO */

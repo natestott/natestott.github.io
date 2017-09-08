@@ -1,0 +1,133 @@
+
+#preFooter{
+  border: 0px solid #1BA39C  ;
+  background: #1BA39C       ;
+  padding-top: 10px;
+  margin-top: -0px;
+  padding-left: 0px;
+  p{
+   font-size: 17px;
+    color: #fff       ;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: raleway;
+        @media (max-width: 500px) {
+      font-size: 15px !important
+    }
+  }
+  h2{
+    color: #fff             ;
+    font-size: 80px;
+    margin-top: -40px;
+    @media (max-width: 500px) {
+      font-size: 30px !important
+    }
+  }
+  h1{
+    font-size: 30px;
+    color: #fff      ;
+    line-height: 1.5;
+    font-weight: 600px;;
+    letter-spacing: 0px;
+    margin-top: -10px;
+    text-align: center;
+    @media (max-width: 500px) {
+      font-size: 20px !important
+    }
+  }
+  .theshopmainbutton{
+    a {
+      line-height: 2;
+      color: #fff ;
+      font-size: 50px;
+      font-weight: 800;
+    }
+    a:hover{
+      color: #fff      ;
+      font-size: 50px;
+    }
+  }
+  
+.form-wrapper{
+  display: none
+}
+  
+ .newsletter-form-wrapper {
+   margin-bottom: -50px;
+   margin-top: -20px;
+    display: ;
+    background: #1BA39C         ;
+    padding-top: 0px;
+  .newsletter-form {
+    .newsletter-form-button{
+      height: 49px;
+background: transparent  !important;
+border-radius: 1px !important;
+   border: 2px solid #fff  !important;
+transition: all ease-in-out 100ms !important;
+      font-weight: 600 !important;
+      color: #fff  !important;
+   @media (max-width: 500px)   {
+          font-size: 12px !important;
+     width: 100% !important;
+          }
+}
+.newsletter-form-button:hover {
+background: #F4D03F   !important;
+color: #1BA39C !important;
+  border: 2px solid #F4D03F !important;
+  opacity: 1
+    }
+    .newsletter-form-footnote {
+   @media (max-width: 500px) {
+     display: none
+   }
+    }
+  }
+ }
+
+  .sqs-block-horizontalrule hr {
+  display: block;
+    background: #fff;       
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 2px !important;
+    width: 100px !important;
+    
+  }
+   .first-name {
+  display: block !important
+}
+}
+/* END OF PREFOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer .nav-wrapper a, #footer .nav-wrapper a:visited, #footer .nav-wrapper label::after {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+

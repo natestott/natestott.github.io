@@ -1,0 +1,47 @@
+
+
+
+
+
+
+.logobridge {
+content: "x";
+font-size: 0px; 
+height: 100px;
+width: 46px;
+background: url('http://static1.squarespace.com/static/56b7a98c20c647a9a179014b/t/575551b045bf21e84970cfb6/1465209264822/cow4.png');
+background-size: contain;
+background-repeat: no-repeat; 
+background-position: center;
+letter-spacing: -1px;
+display: block;
+text-align: center !important;
+width: 100% !important;
+top: 0 !important;
+  margin-bottom: 70px !important;
+  border-bottom: 0px solid #fff;
+  margin-top: -130px !important;
+  padding-bottom: 0px
+}
+
+
+
+.logotheshop {
+content: "x";
+font-size: 0px; 
+height: 100px;
+width: 46px;
+background: url('http://static1.squarespace.com/static/56b7a98c20c647a9a179014b/t/575551b045bf21e84970cfb6/1465209264822/cow4.png');
+background-size: contain;
+background-repeat: no-repeat; 
+background-position: center;
+letter-spacing: -1px;
+display: block;
+text-align: center !important;
+width: 100% !important;
+top: 0 !important;
+  margin-bottom: 40px !important;
+  border-bottom: 0px solid #fff;
+  margin-top: -100px !important;
+  padding-bottom: 1px
+}

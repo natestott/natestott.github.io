@@ -1,0 +1,170 @@
+/* ABOUT US 1 */
+#about-us-1-section{
+  h2{
+    font-size: 60px !important;
+    @media (max-width: 200px){
+      font-size: 40px !important
+    }
+  }
+}
+/* END OF ABOUT US 1 */
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* ABOUT US 2 */
+#about-us-2-section{
+  background: #52B3D9  ;
+  h3{
+    color: #fff;
+  }
+  p{
+    color: #fff;
+    font-size: 15px;
+    strong {
+      font-size: 20px
+    }
+  }
+  h1{
+    font-size: 30px;
+    color: #fff
+  }
+  /* CUSTOM CSS */
+.sqs-block-image .image-block-wrapper {
+height: 150px !important;
+width: 150px !important;
+margin: 0 auto !important;
+padding-bottom: 0px !important;
+margin-bottom: 25px !important;
+border-radius: 300px !important;
+transition: all ease-in-out 600ms !important;
+    img {
+      height: 150px !important;
+      width: 150px !important;
+      padding: 0 !important;
+      left: 0 !important;
+      top: 0 !important;
+      border-radius: 300px !important;
+    }
+}
+.image-caption {
+text-align: center;
+margin-left: 0px !important;
+}
+.image-caption p strong {
+  font-size: 20px;
+  color: #F4D03F ;
+text-transform: uppercase;
+
+border-bottom: solid 1px #ccc;
+padding-bottom: 10px;
+transition: all ease-in-out 600ms !important;
+}
+  .sqs-block-image:hover {
+  .image-block-wrapper {
+ -webkit-transform:rotate(10deg) !important;
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg);}
+.image-caption strong {
+  letter-spacing: 2px;
+}
+}
+}
+/* END OF ABOUT US 2 */
+
+
+
+
+
+
+
+
+
+/* CONTACT US 1 */
+#contact-us-1-section {
+  h2{
+    font-size: 60px !important;
+    @media (max-width: 500px){
+      font-size: 40px !important
+    }
+  }
+}
+/* END OF CONTACT US */
+
+
+
+
+
+
+
+
+
+
+/* CONTACT US 2 */
+#contact-us-2-section {
+  background: #52B3D9  !important;
+  p{
+    color: #F4D03F ;
+      font-size: 20px
+  }
+  h1{
+    color: #52B3D9 
+  }
+/* CUSTOM CSS */
+
+.sqs-block-form {
+.field-list .title {
+  font-size: 14px;
+  color: #F4D03F ;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.form-wrapper .field-list .field .caption {
+  color: #4ECDC4 !important;
+}
+.field-element {
+  font-size: 18px;
+  color: #52B3D9  ;
+  font-weight: 400;
+  align: left
+}
+.field .field-element {
+  border-radius: 0px;
+  background: none;
+  border: solid 1px #bbb !important;
+  text-align: left;
+  transition: all ease-in-out 700ms !important;
+}
+.field-element:hover {
+  border: solid 1px #4ECDC4 !important;
+}
+.sqs-editable-button {
+text-transform: uppercase;
+font-weight: 500;
+font-size: 20px;
+padding: 16px 26px;
+border: none !important;
+background: #F4D03F     !important;
+color: #52B3D9    !important;
+letter-spacing: 1px;
+width: 100% !important;
+transition: all ease-in-out 700ms !important;
+}
+.sqs-editable-button:hover {
+ background: #F89406   !important;
+}
+}
+}
+/* END OF CONTACT US */
+
+
+

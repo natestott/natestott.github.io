@@ -1,0 +1,211 @@
+/* OFF CAMPUS INFO */
+#off-campus-info-section,
+#off-campus-info-0-section,
+#off-campus-info-1-section,
+#off-campus-info-2-section,
+#off-campus-info-3-section,
+#off-campus-info-4-section,
+#off-campus-info-5-section,
+#off-campus-info-6-section,
+#off-campus-info-7-section,
+#off-campus-info-8-section,
+#off-campus-info-9-section,
+#off-campus-info-10-section,
+#off-campus-info-11-section,
+#off-campus-info-12-section,
+#off-campus-info-13-section,
+#off-campus-info-14-section,
+#off-campus-info-15-section,
+#off-campus-info-16-section,
+#off-campus-info-17-section,
+#off-campus-info-18-section,
+#off-campus-info-19-section,
+#off-campus-info-20-section,
+#off-campus-info-21-section,
+#off-campus-info-22-section,
+#off-campus-info-23-section,
+#off-campus-info-24-section,
+#off-campus-info-25-section,
+#off-campus-info-26-section,
+#off-campus-info-27-section,
+#off-campus-info-28-section,
+#off-campus-info-29-section,
+#off-campus-info-30-section,
+#off-campus-info-31-section,
+#off-campus-info-32-section,
+#off-campus-info-33-section,
+#off-campus-info-34-section,
+#off-campus-info-35-section,
+#off-campus-info-36-section,
+#off-campus-info-37-section,
+#off-campus-info-38-section,
+#off-campus-info-39-section,
+#off-campus-info-40-section,
+#off-campus-info-41-section,
+#off-campus-info-42-section,
+#off-campus-info-43-section,
+#off-campus-info-44-section,
+#off-campus-info-45-section,
+#off-campus-info-46-section,
+#off-campus-info-47-section,
+#off-campus-info-48-section,
+#off-campus-info-49-section,
+#off-campus-info-50-section,
+#off-campus-info-51-section,
+#off-campus-info-52-section,
+#off-campus-info-53-section,
+#off-campus-info-54-section,
+#off-campus-info-55-section,
+#off-campus-info-56-section,
+#off-campus-info-57-section,
+#off-campus-info-58-section,
+#off-campus-info-59-section,
+#off-campus-info-60-section,
+#off-campus-info-61-section,
+#off-campus-info-62-section,
+#off-campus-info-63-section,
+#off-campus-info-64-section,
+#off-campus-info-65-section,
+#off-campus-info-66-section,
+#off-campus-info-67-section,
+#off-campus-info-68-section,
+#off-campus-info-69-section,
+#off-campus-info-70-section,
+#off-campus-info-71-section,
+#off-campus-info-72-section,
+#off-campus-info-73-section,
+#off-campus-info-74-section,
+#off-campus-info-75-section,
+#off-campus-info-76-section,
+#off-campus-info-77-section,
+#off-campus-info-78-section,
+#off-campus-info-79-section,
+#off-campus-info-80-section,
+#off-campus-info-81-section,
+#off-campus-info-82-section,
+#off-campus-info-83-section,
+#off-campus-info-84-section,
+#off-campus-info-85-section,
+#off-campus-info-86-section,
+#off-campus-info-87-section,
+#off-campus-info-88-section,
+#off-campus-info-89-section,
+#off-campus-info-90-section,
+#off-campus-info-91-section,
+#off-campus-info-92-section,
+#off-campus-info-93-section,
+#off-campus-info-94-section,
+#off-campus-info-95-section,
+#off-campus-info-96-section,
+#off-campus-info-97-section,
+#off-campus-info-98-section,
+#off-campus-info-99-section,
+#off-campus-info-100-section
+
+
+
+
+ {
+  background: #F4D03F ;
+  p{
+color: #F64747 ;
+font-size: 12px
+}
+h2{
+font-size: 40px;
+color: #F64747 ;
+    @media (max-width: 500px){
+    font-size: 30px !important
+    }
+}
+  //DROPDOWN
+.sqs-block-markdown {
+  /* LIST ICONS */
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 20px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      /* END OF LIST ICONS */
+  h2 {
+    font-size: 18px !important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F64747     ;
+    background: #F64747        ;
+    color: #F4D03F    ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  .dropcontent {
+  .offcampusinfo {
+    color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 20px;
+      padding-left: 0px !important;
+      strong {
+        font-size: 20px
+      }
+    }
+  }
+    }
+  }
+  @media (max-width:400px) {
+h2{
+font-size: 30px !important;
+}
+  .offcampusinfo {
+    td {
+      font-size: 12px !important;
+    }
+  }
+}
+/* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+}
+/* END OF OFF-CAMPUS INFO */

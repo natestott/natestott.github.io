@@ -1,0 +1,216 @@
+/* THE UNMISSABLES */
+#the-unmissables-section,
+#the-unmissables-0-section,
+#the-unmissables-1-section,
+#the-unmissables-2-section,
+#the-unmissables-3-section,
+#the-unmissables-4-section,
+#the-unmissables-5-section,
+#the-unmissables-6-section,
+#the-unmissables-7-section,
+#the-unmissables-8-section,
+#the-unmissables-9-section
+
+
+ {
+  background: #222    ;
+  p{
+    color: #F4D03F;
+    text-align: center;
+  }
+    h6{
+    letter-spacing: -2px;
+    line-height: 0px;
+    font-size: 15px
+  }
+    h1 {
+      color: #F4D03F ;
+      font-size: 40px;
+      strong{
+        font-size: 50px
+      }
+    }
+     h2 {
+       strong{
+         color: #F4D03F !important;
+       font-size: 60px;
+         font-weight: 800;
+          @media (max-width: 500px){
+    font-size: 30px !important
+    }
+       }
+       color: #222;
+        
+      }
+  h3{
+    color: #F4D03F   ;
+  }
+  .quote-block {
+  padding-top: 0px;
+blockquote {
+display: block;
+font-size: 15px;
+      color: #F4D03F ;
+
+line-height: 20px;
+text-align: center;
+font-weight: 600;
+}
+}
+    /* DROPDOWN */
+.sqs-block-markdown {
+  h2 {
+    font-size: 20px;
+      @media (max-width: 500px){
+    font-size: 20px !important
+    }
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F   ;
+    background: #F4D03F     ;
+    color: #292929   ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+  .dropcontent {
+  .unmissablesinfo {
+    color: #444;
+    background: #fff;
+    width: 100%;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: left;
+          text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 30px;
+          span{
+      font-size: 35px !important
+    }
+    }
+  }
+  }
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 1px !important;
+    background: #fff;
+    @media (min-width: 500px){
+    display: none
+    }
+}
+}
+/* END OF THE UNMISSABLES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CRAZYOMETER SECTION BELOW */
+
+
+
+
+
+
+
+
+
+
+/* FRESHERS WEEK QUOTES */
+#freshers-week-quotes-section,
+#freshers-week-quotes-0-section,
+#freshers-week-quotes-1-section,
+#freshers-week-quotes-2-section,
+#freshers-week-quotes-3-section,
+#freshers-week-quotes-4-section,
+#freshers-week-quotes-5-section,
+#freshers-week-quotes-6-section,
+#freshers-week-quotes-7-section,
+#freshers-week-quotes-8-section,
+#freshers-week-quotes-9-section
+
+
+ {
+  background: #52B3D9 ;
+h2{
+  color: #F4D03F     
+}
+  p{
+    line-height: 1;
+    text-align: center;
+    color: #F4D03F ;
+    font-size: 15px;
+  }
+  .sqs-block-quote {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    figure {
+      padding: 0px 0px;
+    }
+    blockquote {
+     background: #ECF0F1 ;
+     padding: 20px 10px;
+     text-align: center !important;
+      font-size: 15px !important;
+  color: #111111;
+      line-height: 20px !important;
+      font-weight: 500;
+      font-style: initial !important;
+    }
+    .source:before {
+      content: "";
+      display: block;
+      height: 0px;
+      line-height: 0px !important;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent; 
+  border-right: 20px solid #ECF0F1 ; 
+      width: 92%;
+    }
+    .source {
+      margin-top: -16px !important;
+      padding: 0 !important;
+      text-align: right !important;
+      font-size: 16px !important;
+      line-height: 35px !important;
+      width: 98%;
+      color: transparent;
+    }
+    blockquote>span{
+      display: none !important;
+    }
+  }
+}
+/* END OF FRESHERS WEEK QUOTES */

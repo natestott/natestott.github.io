@@ -1,0 +1,298 @@
+/* BARS AND PUBS INFO, CLUBS INFO */
+#barspubsandclubs-section,
+#barspubsandclubs-0-section,
+#barspubsandclubs-1-section,
+#barspubsandclubs-2-section,
+#barspubsandclubs-3-section,
+#barspubsandclubs-4-section,
+#barspubsandclubs-5-section,
+#barspubsandclubs-6-section,
+#barspubsandclubs-7-section,
+#barspubsandclubs-8-section,
+#barspubsandclubs-9-section,
+#barspubsandclubs-10-section,
+#barspubsandclubs-11-section,
+#barspubsandclubs-12-section,
+#barspubsandclubs-13-section,
+#barspubsandclubs-14-section,
+#barspubsandclubs-15-section,
+#barspubsandclubs-16-section,
+#barspubsandclubs-17-section,
+#barspubsandclubs-18-section,
+#barspubsandclubs-19-section,
+#barspubsandclubs-20-section,
+#barspubsandclubs-21-section,
+#barspubsandclubs-22-section,
+#barspubsandclubs-23-section,
+#barspubsandclubs-24-section,
+#barspubsandclubs-25-section,
+#barspubsandclubs-26-section,
+#barspubsandclubs-27-section,
+#barspubsandclubs-28-section,
+#barspubsandclubs-29-section,
+#barspubsandclubs-30-section,
+#barspubsandclubs-31-section,
+#barspubsandclubs-32-section,
+#barspubsandclubs-33-section,
+#barspubsandclubs-34-section,
+#barspubsandclubs-35-section,
+#barspubsandclubs-36-section,
+#barspubsandclubs-37-section,
+#barspubsandclubs-38-section,
+#barspubsandclubs-39-section,
+#barspubsandclubs-40-section,
+#barspubsandclubs-41-section,
+#barspubsandclubs-42-section,
+#barspubsandclubs-43-section,
+#barspubsandclubs-44-section,
+#barspubsandclubs-45-section,
+#barspubsandclubs-46-section,
+#barspubsandclubs-47-section,
+#barspubsandclubs-48-section,
+#barspubsandclubs-49-section,
+#barspubsandclubs-50-section,
+#barspubsandclubs-51-section,
+#barspubsandclubs-52-section,
+#barspubsandclubs-53-section,
+#barspubsandclubs-54-section,
+#barspubsandclubs-55-section,
+#barspubsandclubs-56-section,
+#barspubsandclubs-57-section,
+#barspubsandclubs-58-section,
+#barspubsandclubs-59-section,
+#barspubsandclubs-60-section,
+#barspubsandclubs-61-section,
+#barspubsandclubs-62-section,
+#barspubsandclubs-63-section,
+#barspubsandclubs-64-section,
+#barspubsandclubs-65-section,
+#barspubsandclubs-66-section,
+#barspubsandclubs-67-section,
+#barspubsandclubs-68-section,
+#barspubsandclubs-69-section,
+#barspubsandclubs-70-section,
+#barspubsandclubs-71-section,
+#barspubsandclubs-72-section,
+#barspubsandclubs-73-section,
+#barspubsandclubs-74-section,
+#barspubsandclubs-75-section,
+#barspubsandclubs-76-section,
+#barspubsandclubs-77-section,
+#barspubsandclubs-78-section,
+#barspubsandclubs-79-section,
+#barspubsandclubs-80-section,
+#barspubsandclubs-81-section,
+#barspubsandclubs-82-section,
+#barspubsandclubs-83-section,
+#barspubsandclubs-84-section,
+#barspubsandclubs-85-section,
+#barspubsandclubs-86-section,
+#barspubsandclubs-87-section,
+#barspubsandclubs-88-section,
+#barspubsandclubs-89-section,
+#barspubsandclubs-90-section,
+#barspubsandclubs-91-section,
+#barspubsandclubs-92-section,
+#barspubsandclubs-93-section,
+#barspubsandclubs-94-section,
+#barspubsandclubs-95-section,
+#barspubsandclubs-96-section,
+#barspubsandclubs-97-section,
+#barspubsandclubs-98-section,
+#barspubsandclubs-99-section
+
+
+ {
+  padding: 0px 0px;
+    background: #222   !important;
+  p{
+  color: #F4D03F 
+  }
+  h2 { 
+  color: #F4D03F ;
+  font-size: 40px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1 {
+    color: #fff;
+    font-size: 20px
+  }
+  h3{
+    strong{
+    text-transform: none;
+    color: #fff
+    }
+  }
+  h6{
+    letter-spacing: -2px;
+    line-height: 0px;
+    font-size: 15px
+  }
+  //DROPDOWN
+.sqs-block-markdown {
+  h2 {
+    font-size: 18px !important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F   ;
+    background: #F4D03F     ;
+    color: #292929   ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+  .dropcontent {
+  .barspubsinfo, .clubinfo {
+    color: #444;
+    background: #fff;
+    width: 100%;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: left;
+          text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 30px;
+          span{
+      font-size: 35px !important
+    }
+      h3{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: none
+      }
+    }
+  }
+  }
+}
+  .sqs-block-image {
+    max-width: 300px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+  /* CUSTOM CSS */
+  .sqs-block-image:none {
+      img {
+        transform:scale(1.05);
+      -moz-transform:scale(1.05);
+      -webkit-transform:scale(1.05);
+      }
+  }
+  .sqs-gallery-container{
+  @media (max-width:667px) {
+   width: 70% !important;
+   position: relative;
+    }
+    }
+  .sqs-block-image {
+    img {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      -webkit-transition: all ease-in-out 280ms;
+      -moz-transition: all ease-in-out 280ms;
+      transition: all ease-in-out 280ms;
+    }
+    .image-caption-wrapper {
+      -webkit-transform-style: preserve-3d;
+      -webkit-backface-visibility: hidden;
+      -webkit-transition: all ease-in-out 200ms;
+      -moz-transition: all ease-in-out 200ms;
+      transition: all ease-in-out 200ms;
+      background: rgba(0,0,0,0.3) !important;
+      height: 100%;
+      padding: 0;
+    box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+      .image-caption {
+        padding: 20px;
+        p {
+          strong {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 28px;
+            text-align: center;
+            line-height: 35px !important;
+            font-weight: 700 !important;
+            letter-spacing: 1px;
+            position: absolute;
+            top: 50% !important;
+            left: 50% !important;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+          }
+          a {
+            text-decoration: none;
+            font-style: initial;
+            color: #eee;
+            font-size: 12px;
+            font-weight: 100;
+            position: absolute;
+            bottom: 20px !important;
+            left: 50% !important;
+            -webkit-transform: translate(-50%, 0%);
+            -ms-transform: translate(-50%, 0%);
+            -moz-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+          }
+        }
+      }
+    }
+  .sqs-block-image {
+      .image-caption {
+        strong {
+          font-size: 28px !important;
+          line-height: 20px !important;
+        }
+        em {
+          font-size: 11px !important;
+          line-height: 12px !important;
+        }
+      }
+  }
+  }  
+  @media (max-width: 667px) {
+  h2{
+  font-size: 60px !important
+  }
+  }
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 1px !important;
+    background: #fff;
+    @media (min-width: 668px){
+    display: none
+    }
+  } 
+}
+/* END OF BARS AND PUBS INFO, END OF CLUBS INFO */

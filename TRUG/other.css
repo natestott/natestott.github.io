@@ -1,0 +1,218 @@
+/* MARGIN */
+body {
+  margin-left: 15%; 
+  background-color: #ECF0F1;
+  @media (max-width: 600px) {
+    margin-left: 0px !important
+  }
+}
+/* END OF MARGIN */
+
+ 
+
+// LIMITS SITE WIDTH
+body {
+  max-width: 100vw; 
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+
+// ALL CAPTIONS
+.image-slide-title {
+font-size: 16px !important;
+  line-height: 24px !Important;
+max-width: 80% !important;
+white-space: initial !important;
+text-overflow: initial !important;
+}
+
+
+
+
+
+
+
+
+
+
+.theshopbuttons {
+  display: none;
+  text-align: right;
+  border-top: 0px solid #F4D03F  ;
+  a{
+    font-size: 20px;
+    color: #ECF0F1  
+  }
+  a:hover {
+    color: #F4D03F ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANNOUNCEMENT BAR */
+.sqs-announcement-bar {
+  display: none;
+  background: #F4D03F   ;
+  .sqs-announcement-bar-content {
+    .sqs-announcement-bar-text {
+      font-size: 10px !important;
+      font-weight: 600 !important;
+      color: #fff !important;
+      .sqs-announcement-bar-close {
+        display: none
+      }
+  }
+  }
+}
+/* END OF ANNOUNCEMENT BAR */
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE LOADER CSS */
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  background: #333;
+}
+.loader:before {
+  content: "";
+  font-size: 14px; 
+height: 0px;
+  background: url('http://static1.squarespace.com/static/56b7a98c20c647a9a179014b/t/579d0036414fb51257571c4a/1469906998935/cow4.png');
+background-size: contain;
+background-repeat: no-repeat;
+  background-position: 30px 20px !important;
+  width: 100% !important;
+  letter-spacing: -1px;
+display: block;
+text-align: center !important;
+  top: 50% !important;
+  left: 90% !important;
+  @media (max-width: 500px) {
+top: 45% !important;
+  left: 75% !important;
+  }
+position: absolute;
+  -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+}
+.loader:after {
+  content: "";
+ 
+  position: absolute;
+  font-family: monospace;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #fff;
+  top: 50% !important; 
+  left: 45% !important; 
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  -webkit-transform: translate(-30%, -30%); -ms-transform: translate(-30%, -30%); -moz-transform: translate(-40%, -30%); transform: translate(-30%, -30%);
+}
+/* END OF PAGE LOADER CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#your-course-section,
+#your-course-1-section,
+#your-course-2-section,
+#your-course-3-section,
+#your-course-4-section,
+#your-course-5-section,
+#your-course-6-section,
+#your-course-7-section,
+#your-course-8-section,
+#your-course-9-section {
+display: none !important;
+}
+
+
+
+
+
+
+
+
+
+/* CUSTOM CSS */
+.socialaccount-links-v2-block {
+      width: 50px !important;
+  display: none !important
+
+}
+.social-icons-style-border.social-icons-color-black .sqs-svg-icon--wrapper {
+    border: solid 1px #F65959 !important;
+}
+.sqs-use--icon {
+    fill: #F65959 !important;
+}
+.social-icons-style-border.social-icons-color-black .sqs-svg-icon--wrapper:hover {
+  background: #fff !important;
+  .sqs-use--icon {
+    fill: #fff !important;
+}
+}
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+/* WISDOM INFO */
+#wisdom-info-section,
+#wisdom-info-0-section, 
+#wisdom-info-1-section,
+#wisdom-info-2-section,
+#wisdom-info-3-section,
+#wisdom-info-4-section, 
+#wisdom-info-5-section,
+#wisdom-info-6-section,
+#wisdom-info-7-section,
+#wisdom-info-8-section,
+#wisdom-info-9-section,
+#wisdom-info-10-section, 
+#wisdom-info-11-section,
+#wisdom-info-12-section,
+#wisdom-info-13-section,
+#wisdom-info-14-section, 
+#wisdom-info-15-section,
+#wisdom-info-16-section,
+#wisdom-info-17-section,
+#wisdom-info-18-section,
+#wisdom-info-19-section,
+#wisdom-info-20-section, 
+#wisdom-info-21-section,
+#wisdom-info-22-section,
+#wisdom-info-23-section,
+#wisdom-info-24-section, 
+#wisdom-info-25-section,
+#wisdom-info-26-section,
+#wisdom-info-27-section,
+#wisdom-info-28-section,
+#wisdom-info-29-section,
+#wisdom-info-30-section, 
+#wisdom-info-31-section,
+#wisdom-info-32-section,
+#wisdom-info-33-section,
+#wisdom-info-34-section, 
+#wisdom-info-35-section,
+#wisdom-info-36-section,
+#wisdom-info-37-section,
+#wisdom-info-38-section,
+#wisdom-info-39-section,
+#wisdom-info-40-section, 
+#wisdom-info-41-section,
+#wisdom-info-42-section,
+#wisdom-info-43-section,
+#wisdom-info-44-section, 
+#wisdom-info-45-section,
+#wisdom-info-46-section,
+#wisdom-info-47-section,
+#wisdom-info-48-section,
+#wisdom-info-49-section,
+#wisdom-info-50-section, 
+#wisdom-info-51-section,
+#wisdom-info-52-section,
+#wisdom-info-53-section,
+#wisdom-info-54-section, 
+#wisdom-info-55-section,
+#wisdom-info-56-section,
+#wisdom-info-57-section,
+#wisdom-info-58-section,
+#wisdom-info-59-section,
+#wisdom-info-60-section, 
+#wisdom-info-61-section,
+#wisdom-info-62-section,
+#wisdom-info-63-section,
+#wisdom-info-64-section, 
+#wisdom-info-65-section,
+#wisdom-info-66-section,
+#wisdom-info-67-section,
+#wisdom-info-68-section,
+#wisdom-info-69-section,
+#wisdom-info-70-section, 
+#wisdom-info-71-section,
+#wisdom-info-72-section,
+#wisdom-info-73-section,
+#wisdom-info-74-section, 
+#wisdom-info-75-section,
+#wisdom-info-76-section,
+#wisdom-info-77-section,
+#wisdom-info-78-section,
+#wisdom-info-79-section,
+#wisdom-info-80-section, 
+#wisdom-info-81-section,
+#wisdom-info-82-section,
+#wisdom-info-83-section,
+#wisdom-info-84-section, 
+#wisdom-info-85-section,
+#wisdom-info-86-section,
+#wisdom-info-87-section,
+#wisdom-info-88-section,
+#wisdom-info-89-section,
+#wisdom-info-90-section, 
+#wisdom-info-91-section,
+#wisdom-info-92-section,
+#wisdom-info-93-section,
+#wisdom-info-94-section, 
+#wisdom-info-95-section,
+#wisdom-info-96-section,
+#wisdom-info-97-section,
+#wisdom-info-98-section,
+#wisdom-info-99-section,
+#wisdom-info-100-section
+
+
+{
+
+
+  p{
+  color: #F4D03F ;
+  font-size: 15px
+  }
+  h2{
+    color: #F4D03F ;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h3 {
+  text-transform: none;
+  font-weight: 700;
+  color: #F4D03F ;
+  font-size: 30px;
+  letter-spacing: 0
+  }
+/* DROPDOWN */
+.sqs-block-markdown {
+   //LIST ICONS
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 10px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      //END OF LIST ICONS
+  h2 {
+    font-size: 18px !important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F   ;
+    background: #F4D03F     ;
+    color: #292929   ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+  p {
+    padding: 20px 30px;
+    background: #f7f7f7;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .dropcontent {
+  .wisdominfo {
+    color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: left;
+          text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+  }
+  }
+}
+  background: #52B3D9;
+  h1{
+    font-size: 60px;
+   text-align: center;
+    color: #ECF0F1;
+    letter-spacing: 1px;
+    line-height: 2
+  }
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+  } 
+}
+/* END OF WISDOM INFO */
