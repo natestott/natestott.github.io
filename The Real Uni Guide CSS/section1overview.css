@@ -1,0 +1,415 @@
+/* FACES SECTION */
+#faces-section,
+#faces-0-section,
+#faces-1-section,
+#faces-2-section,
+#faces-3-section,
+#faces-4-section,
+#faces-5-section,
+#faces-6-section,
+#faces-7-section,
+#faces-8-section,
+#faces-9-section,
+#faces-10-section,
+#faces-11-section,
+#faces-12-section,
+#faces-13-section,
+#faces-14-section,
+#faces-15-section,
+#faces-16-section,
+#faces-17-section,
+#faces-18-section,
+#faces-19-section,
+#faces-20-section,
+#faces-21-section,
+#faces-22-section,
+#faces-23-section,
+#faces-24-section,
+#faces-25-section,
+#faces-26-section,
+#faces-27-section,
+#faces-28-section,
+#faces-29-section,
+#faces-30-section,
+#faces-31-section,
+#faces-32-section,
+#faces-33-section,
+#faces-34-section,
+#faces-35-section,
+#faces-36-section,
+#faces-37-section,
+#faces-38-section,
+#faces-39-section,
+#faces-40-section,
+#faces-41-section,
+#faces-42-section,
+#faces-43-section,
+#faces-44-section,
+#faces-45-section,
+#faces-46-section,
+#faces-47-section,
+#faces-48-section,
+#faces-49-section,
+#faces-50-section,
+#faces-51-section,
+#faces-52-section,
+#faces-53-section,
+#faces-54-section,
+#faces-55-section,
+#faces-56-section,
+#faces-57-section,
+#faces-58-section,
+#faces-59-section,
+#faces-60-section,
+#faces-61-section,
+#faces-62-section,
+#faces-63-section,
+#faces-64-section,
+#faces-65-section,
+#faces-66-section,
+#faces-67-section,
+#faces-68-section,
+#faces-69-section,
+#faces-70-section,
+#faces-71-section,
+#faces-72-section,
+#faces-73-section,
+#faces-74-section,
+#faces-75-section,
+#faces-76-section,
+#faces-77-section,
+#faces-78-section,
+#faces-79-section,
+#faces-80-section,
+#faces-81-section,
+#faces-82-section,
+#faces-83-section,
+#faces-84-section,
+#faces-85-section,
+#faces-86-section,
+#faces-87-section,
+#faces-88-section,
+#faces-89-section,
+#faces-90-section,
+#faces-91-section,
+#faces-92-section,
+#faces-93-section,
+#faces-94-section,
+#faces-95-section,
+#faces-96-section,
+#faces-97-section,
+#faces-98-section,
+#faces-99-section,
+#faces-100-section
+
+
+
+ {
+   /* LIST ICONS */
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: center ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 30px;
+   color: #F4D03F;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      /* END OF LIST ICONS */
+  background: #00B16A;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #52B3D9;
+  h2 {
+  color: #F4D03F;
+    font-size: 50px;
+      @media (max-width: 500px) {
+    font-size: 30px !important
+    }
+  }
+
+  h3 {
+    text-transform: none;
+    font-size: 20px;
+    color: #F4D03F;
+      font-weight: 700;
+        text-align: center;
+    padding-top: 50px
+  }
+  p {
+    color: #F4D03F !important;
+    text-align: center;
+      font-size: 15px;
+      line-height: ;
+  strong {
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: 800;
+    color: #fff;
+  }
+  }
+  .chart-block-container {
+    p{
+      color: #222 !important;
+    }
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto
+  }
+  /* LINE CSS */
+  .sqs-block-horizontalrule hr {
+    margin: 0 auto;
+    height: 2px !important;
+    background: #F4D03F;
+    @media (max-width: 5000px) {
+      display: block !important;
+    }
+}
+}
+/* END OF FACES SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+/* DES CHIFFRES */
+#des-chiffres-section,
+#des-chiffres-0-section,
+#des-chiffres-1-section,
+#des-chiffres-2-section,
+#des-chiffres-3-section,
+#des-chiffres-4-section,
+#des-chiffres-5-section,
+#des-chiffres-6-section,
+#des-chiffres-7-section,
+#des-chiffres-8-section,
+#des-chiffres-9-section,
+#des-chiffres-10-section,
+#des-chiffres-11-section,
+#des-chiffres-12-section,
+#des-chiffres-13-section,
+#des-chiffres-14-section,
+#des-chiffres-15-section,
+#des-chiffres-16-section,
+#des-chiffres-17-section,
+#des-chiffres-18-section,
+#des-chiffres-19-section,
+#des-chiffres-20-section,
+#des-chiffres-21-section,
+#des-chiffres-22-section,
+#des-chiffres-23-section,
+#des-chiffres-24-section,
+#des-chiffres-25-section,
+#des-chiffres-26-section,
+#des-chiffres-27-section,
+#des-chiffres-28-section,
+#des-chiffres-29-section,
+#des-chiffres-30-section,
+#des-chiffres-31-section,
+#des-chiffres-32-section,
+#des-chiffres-33-section,
+#des-chiffres-34-section,
+#des-chiffres-35-section,
+#des-chiffres-36-section,
+#des-chiffres-37-section,
+#des-chiffres-38-section,
+#des-chiffres-39-section,
+#des-chiffres-40-section,
+#des-chiffres-41-section,
+#des-chiffres-42-section,
+#des-chiffres-43-section,
+#des-chiffres-44-section,
+#des-chiffres-45-section,
+#des-chiffres-46-section,
+#des-chiffres-47-section,
+#des-chiffres-48-section,
+#des-chiffres-49-section,
+#des-chiffres-50-section,
+#des-chiffres-51-section,
+#des-chiffres-52-section,
+#des-chiffres-53-section,
+#des-chiffres-54-section,
+#des-chiffres-55-section,
+#des-chiffres-56-section,
+#des-chiffres-57-section,
+#des-chiffres-58-section,
+#des-chiffres-59-section,
+#des-chiffres-60-section,
+#des-chiffres-61-section,
+#des-chiffres-62-section,
+#des-chiffres-63-section,
+#des-chiffres-64-section,
+#des-chiffres-65-section,
+#des-chiffres-66-section,
+#des-chiffres-67-section,
+#des-chiffres-68-section,
+#des-chiffres-69-section,
+#des-chiffres-70-section,
+#des-chiffres-71-section,
+#des-chiffres-72-section,
+#des-chiffres-73-section,
+#des-chiffres-74-section,
+#des-chiffres-75-section,
+#des-chiffres-76-section,
+#des-chiffres-77-section,
+#des-chiffres-78-section,
+#des-chiffres-79-section,
+#des-chiffres-80-section,
+#des-chiffres-81-section,
+#des-chiffres-82-section,
+#des-chiffres-83-section,
+#des-chiffres-84-section,
+#des-chiffres-85-section,
+#des-chiffres-86-section,
+#des-chiffres-87-section,
+#des-chiffres-88-section,
+#des-chiffres-89-section,
+#des-chiffres-09-section,
+#des-chiffres-91-section,
+#des-chiffres-92-section,
+#des-chiffres-93-section,
+#des-chiffres-94-section,
+#des-chiffres-95-section,
+#des-chiffres-96-section,
+#des-chiffres-97-section,
+#des-chiffres-98-section,
+#des-chiffres-99-section,
+#des-chiffres-100-section
+
+
+ {
+  background: #F4D03F;
+  h1 {
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: #1BA39C;
+  }
+  h2 {
+  color: #1BA39C;
+    font-size: 50px;
+      @media (max-width: 500px) {
+    font-size: 30px !important;
+    }
+  }
+  h3 {
+  font-weight: 700;
+  color: #1BA39C;
+  }
+  p {
+    color: #1BA39C;
+  }
+    /* COUNTERS */
+  .counter-container {
+  color: #1BA39C;
+  text-align: center !important;
+  border-spacing: 60px !important;
+}
+#counterboxone, #counterboxtwo, #counterboxthree {
+  padding-bottom: 0px;
+  padding-top: 20px;
+  align: center;
+}
+#counterboxone p {
+  margin-bottom: -80px !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+#counterboxtwo p {
+  margin-bottom: -80px !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+#counterboxthree p {
+  margin-bottom: -80px !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+.counter {
+  font-size: 80px;
+  font-weight: 700;
+  background: none !important;
+  align: center;
+  padding-bottom: 30px
+}
+  .counter.two:after {
+  content: "%";
+  display: inline-block;
+    padding: 0px;
+}
+  .counter.three:after {
+  content: "%";
+  display: inline-block;
+  }
+  /* END OF COUNTERS */
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 95% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #52B3D9;
+    @media (min-width: 500px) {
+    display: none;
+    }
+  }  
+}
+/* END OF GLANCE COUNTERS */

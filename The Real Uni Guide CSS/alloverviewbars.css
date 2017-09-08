@@ -1,0 +1,8082 @@
+#overview-o-meters-0-section,
+#overview-o-meters-1-section,
+#overview-o-meters-2-section,
+#overview-o-meters-3-section,
+#overview-o-meters-4-section,
+#overview-o-meters-5-section,
+#overview-o-meters-6-section,
+#overview-o-meters-7-section,
+#overview-o-meters-8-section,
+#overview-o-meters-9-section,
+#overview-o-meters-10-section,
+#overview-o-meters-11-section,
+#overview-o-meters-12-section,
+#overview-o-meters-13-section,
+#overview-o-meters-14-section,
+#overview-o-meters-15-section,
+#overview-o-meters-16-section,
+#overview-o-meters-17-section,
+#overview-o-meters-18-section,
+#overview-o-meters-19-section,
+#overview-o-meters-20-section,
+#overview-o-meters-21-section,
+#overview-o-meters-22-section,
+#overview-o-meters-23-section,
+#overview-o-meters-24-section,
+#overview-o-meters-25-section,
+#overview-o-meters-26-section {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAME */
+
+#overview-o-meters-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .poshometer.go { 
+width:67%;
+animation:poshometer 2s ease-out;
+}
+.nerdometer.go { 
+width:62%;
+animation:nerdometer 2s ease-out; 
+}
+.sportometer.go { 
+width:52%;
+animation:sportometer 2s ease-out; 
+}
+}
+
+@keyframes poshometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes nerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes sportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes poshometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes nerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes sportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes poshometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes nerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes sportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.poshometer { 
+width:67%;
+animation:bar1 2s ease-out;
+}
+.nerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.sportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF NAME */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WARWICK */
+
+#overview-o-meters-0-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* WARWICK */
+  .waposhometer.go { 
+width:67%;
+animation:waposhometer 2s ease-out;
+}
+.wanerdometer.go { 
+width:62%;
+animation:wanerdometer 2s ease-out; 
+}
+.wasportometer.go { 
+width:52%;
+animation:wasportometer 2s ease-out; 
+}
+}
+
+@keyframes waposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes wanerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes wasportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes waposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes wanerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes wasportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes waposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes wanerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes wasportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.waposhometer { 
+width:67%;
+animation:bar1 2s ease-out;
+}
+.wanerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.wasportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* END OF WARWICK */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF WARWICK */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////
+
+
+
+
+
+
+
+/* LANCASTER */
+
+
+
+
+
+#overview-o-meters-1-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+/* LANCASTER */
+  .laposhometer.go { 
+width:52%;
+animation:laposhometer 2s ease-out;
+}
+.lanerdometer.go { 
+width:69%;
+animation:lanerdometer 2s ease-out; 
+}
+.lasportometer.go { 
+width:58%;
+animation:lasportometer 2s ease-out; 
+}
+}
+
+@keyframes laposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@keyframes lanerdometer {
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+@keyframes lasportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-moz-keyframes laposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes lanerdometer {
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+@-moz-keyframes lasportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-webkit-keyframes laposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes lanerdometer {
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+@-webkit-keyframes lasportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@media (max-width : 667px) {
+.laposhometer { 
+width:52%;
+animation:bar1 2s ease-out;
+}
+.lanerdometer { 
+width:69%;
+animation:bar2 2s ease-out; 
+}
+.lasportometer { 
+width:58%;
+animation:bar3 2s ease-out; 
+}
+}
+/* END OF LANCASTER */
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+
+/* END OF LANCASTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DURHAM */
+
+#overview-o-meters-2-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+  .duposhometer.go { 
+width:78%;
+animation:duposhometer 2s ease-out;
+}
+.dunerdometer.go { 
+width:71%;
+animation:dunerdometer 2s ease-out; 
+}
+.dusportometer.go { 
+width:58%;
+animation:dusportometer 2s ease-out; 
+}
+}
+
+@keyframes duposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@keyframes lanerdometer {
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+@keyframes dusportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-moz-keyframes duposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes dunerdometer {
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-moz-keyframes dusportometer {
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+@-webkit-keyframes duposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes dunerdometer {
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+@-webkit-keyframes dusportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@media (max-width : 667px) {
+.duposhometer { 
+width:78%;
+animation:bar1 2s ease-out;
+}
+.dunerdometer { 
+width:71%;
+animation:bar2 2s ease-out; 
+}
+.dusportometer { 
+width:58%;
+animation:bar3 2s ease-out; 
+}
+}
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+
+/* END OF DURHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXETER */
+
+#overview-o-meters-3-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+/* EXETER */
+  .exposhometer.go { 
+width:83%;
+animation:exposhometer 2s ease-out;
+}
+.exnerdometer.go { 
+width:73%;
+animation:exnerdometer 2s ease-out; 
+}
+.exsportometer.go { 
+width:63%;
+animation:exsportometer 2s ease-out; 
+}
+}
+
+@keyframes exposhometer { 
+0%{ width:0px;} 
+100%{ width:83%;}
+}
+@keyframes exnerdometer {
+0%{ width:0px;} 
+100%{ width:73%;}
+}
+@keyframes exsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes exposhometer { 
+0%{ width:0px;} 
+100%{ width:83%;}
+}
+@-moz-keyframes exnerdometer {
+0%{ width:0px;} 
+100%{ width:73%;}
+}
+@-moz-keyframes exsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes exposhometer { 
+0%{ width:0px;} 
+100%{ width:83%;}
+}
+@-webkit-keyframes exnerdometer {
+0%{ width:0px;} 
+100%{ width:73%;}
+}
+@-webkit-keyframes exsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@media (max-width : 667px) {
+.exposhometer { 
+width:83%;
+animation:bar1 2s ease-out;
+}
+.exnerdometer { 
+width:73%;
+animation:bar2 2s ease-out; 
+}
+.exsportometer { 
+width:63%;
+animation:bar3 2s ease-out; 
+}
+}
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+
+/* END OF EXETER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAMBRIDGE WHICH IS CAM NOT CA BTW */
+
+#overview-o-meters-4-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+  .camposhometer.go { 
+width:63%;
+animation:camposhometer 2s ease-out;
+}
+.camnerdometer.go { 
+width:81%;
+animation:camnerdometer 2s ease-out; 
+}
+.camsportometer.go { 
+width:52%;
+animation:camsportometer 2s ease-out; 
+}
+}
+
+@keyframes camposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@keyframes camnerdometer {
+0%{ width:0px;} 
+100%{ width:81%;}
+}
+@keyframes camsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes camposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes camnerdometer {
+0%{ width:0px;} 
+100%{ width:81%;}
+}
+@-moz-keyframes camsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes camposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes camnerdometer {
+0%{ width:0px;} 
+100%{ width:81%;}
+}
+@-webkit-keyframes camsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.camposhometer { 
+width:63%;
+animation:bar1 2s ease-out;
+}
+.camnerdometer { 
+width:81%;
+animation:bar2 2s ease-out; 
+}
+.camsportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+
+/* END OF CAMBRIDGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UWE */
+
+#overview-o-meters-5-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* UWE */
+  .uwposhometer.go { 
+width:48%;
+animation:uwposhometer 2s ease-out;
+}
+.uwnerdometer.go { 
+width:52%;
+animation:uwnerdometer 2s ease-out; 
+}
+.uwsportometer.go { 
+width:27%;
+animation:uwsportometer 2s ease-out; 
+}
+}
+
+@keyframes uwposhometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@keyframes uwnerdometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@keyframes uwsportometer {
+0%{ width:0px;} 
+100%{ width:27%;}
+}
+@-moz-keyframes uwposhometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-moz-keyframes uwnerdometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes uwsportometer {
+0%{ width:0px;} 
+100%{ width:27%;}
+}
+@-webkit-keyframes uwposhometer { 
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-webkit-keyframes uwnerdometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes uwsportometer {
+0%{ width:0px;} 
+100%{ width:27%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.uwposhometer { 
+width:48%;
+animation:bar1 2s ease-out;
+}
+.uwnerdometer { 
+width:52%;
+animation:bar2 2s ease-out; 
+}
+.uwsportometer { 
+width:27%;
+animation:bar3 2s ease-out; 
+}
+}
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF UWE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PLYMOUTH */
+
+#overview-o-meters-6-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+  .plposhometer.go { 
+width:52%;
+animation:plposhometer 2s ease-out;
+}
+.plnerdometer.go { 
+width:59%;
+animation:plnerdometer 2s ease-out; 
+}
+.plsportometer.go { 
+width:34%;
+animation:plsportometer 2s ease-out; 
+}
+}
+
+@keyframes plposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@keyframes plnerdometer {
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@keyframes plsportometer {
+0%{ width:0px;} 
+100%{ width:34%;}
+}
+@-moz-keyframes plposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes plnerdometer {
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@-moz-keyframes plsportometer {
+0%{ width:0px;} 
+100%{ width:34%;}
+}
+@-webkit-keyframes poshometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes plnerdometer {
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@-webkit-keyframes plsportometer {
+0%{ width:0px;} 
+100%{ width:32%;}
+}
+@media (max-width : 667px) {
+.plposhometer { 
+width:52%;
+animation:bar1 2s ease-out;
+}
+.plnerdometer { 
+width:59%;
+animation:bar2 2s ease-out; 
+}
+.plsportometer { 
+width:32%;
+animation:bar3 2s ease-out; 
+}
+}
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+
+/* END OF PLYMOUTH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOUGHBOROUGH */
+
+#overview-o-meters-7-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 62%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 62%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 62%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+  .loposhometer.go { 
+width:63%;
+animation:loposhometer 2s ease-out;
+}
+.lonerdometer.go { 
+width:53%;
+animation:lonerdometer 2s ease-out; 
+}
+.losportometer.go { 
+width:85%;
+animation:losportometer 2s ease-out; 
+}
+}
+
+@keyframes loposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@keyframes lonerdometer {
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+@keyframes losportometer {
+0%{ width:0px;} 
+100%{ width:85%;}
+}
+@-moz-keyframes loposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes lonerdometer {
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+@-moz-keyframes losportometer {
+0%{ width:0px;} 
+100%{ width:85%;}
+}
+@-webkit-keyframes loposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes lonerdometer {
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+@-webkit-keyframes losportometer {
+0%{ width:0px;} 
+100%{ width:85%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.loposhometer { 
+width:63%;
+animation:bar1 2s ease-out;
+}
+.lonerdometer { 
+width:53%;
+animation:bar2 2s ease-out; 
+}
+.losportometer { 
+width:85%;
+animation:bar3 2s ease-out; 
+}
+}
+/* END OF WARWICK */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF LOUGHBOROUGH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTTINGHAM */
+
+#overview-o-meters-8-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .noposhometer.go { 
+width:71%;
+animation:noshometer 2s ease-out;
+}
+.nonerdometer.go { 
+width:63%;
+animation:nonerdometer 2s ease-out; 
+}
+.nosportometer.go { 
+width:48%;
+animation:nosportometer 2s ease-out; 
+}
+}
+
+@keyframes noposhometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+@keyframes nonerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes nosportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-moz-keyframes noposhometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+@-moz-keyframes nonerdometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes nosportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-webkit-keyframes noposhometer { 
+0%{ width:0px;} 
+100%{ width:75%;}
+}
+@-webkit-keyframes nonerdometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes nosportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.noposhometer { 
+width:71%;
+animation:bar1 2s ease-out;
+}
+.nonerdometer { 
+width:63%;
+animation:bar2 2s ease-out; 
+}
+.nosportometer { 
+width:48%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF NOTTINGHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BIRMINGHAM */
+
+#overview-o-meters-9-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .biposhometer.go { 
+width:67%;
+animation:biposhometer 2s ease-out;
+}
+.binerdometer.go { 
+width:62%;
+animation:binerdometer 2s ease-out; 
+}
+.bisportometer.go { 
+width:52%;
+animation:bisportometer 2s ease-out; 
+}
+}
+
+@keyframes biposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes binerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes bisportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes biposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes binerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes bisportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes biposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes binerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes bisportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.biposhometer { 
+width:67%;
+animation:bar1 2s ease-out;
+}
+.binerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.bisportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF BIRMINGHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BRISTOL */
+
+#overview-o-meters-10-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .brposhometer.go { 
+width:78%;
+animation:brposhometer 2s ease-out;
+}
+.brnerdometer.go { 
+width:66%;
+animation:brnerdometer 2s ease-out; 
+}
+.brsportometer.go { 
+width:58%;
+animation:brsportometer 2s ease-out; 
+}
+}
+
+@keyframes brposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@keyframes brnerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@keyframes brsportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-moz-keyframes brposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-moz-keyframes brnerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@-moz-keyframes brsportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-webkit-keyframes brposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-webkit-keyframes brnerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@-webkit-keyframes brsportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.brposhometer { 
+width:78%;
+animation:bar1 2s ease-out;
+}
+.brnerdometer { 
+width:66%;
+animation:bar2 2s ease-out; 
+}
+.brsportometer { 
+width:58%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF BRISTOL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEEDS */
+
+#overview-o-meters-11-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .leposhometer.go { 
+width:67%;
+animation:leposhometer 2s ease-out;
+}
+.lenerdometer.go { 
+width:62%;
+animation:lenerdometer 2s ease-out; 
+}
+.lesportometer.go { 
+width:52%;
+animation:lesportometer 2s ease-out; 
+}
+}
+
+@keyframes leposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes lenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes lesportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes leposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes lenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes lesportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes leposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes lenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes lesportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.leposhometer { 
+width:67%;
+animation:bar1 2s ease-out;
+}
+.lenerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.lesportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF LEEDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARDIFF */
+
+#overview-o-meters-12-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .caposhometer.go { 
+width:58%;
+animation:caposhometer 2s ease-out;
+}
+.canerdometer.go { 
+width:62%;
+animation:canerdometer 2s ease-out; 
+}
+.casportometer.go { 
+width:58%;
+animation:casportometer 2s ease-out; 
+}
+}
+
+@keyframes caposhometer { 
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@keyframes canerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes casportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-moz-keyframes caposhometer { 
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes canerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes casportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-webkit-keyframes caposhometer { 
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes canerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes casportometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.caposhometer { 
+width:58%;
+animation:bar1 2s ease-out;
+}
+.canerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.casportometer { 
+width:58%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF CARDIFF */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOUTHAMPTON */
+
+#overview-o-meters-13-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .soposhometer.go { 
+width:63%;
+animation:soposhometer 2s ease-out;
+}
+.sonerdometer.go { 
+width:66%;
+animation:sonerdometer 2s ease-out; 
+}
+.sosportometer.go { 
+width:52%;
+animation:sosportometer 2s ease-out; 
+}
+}
+
+@keyframes soposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@keyframes sonerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@keyframes sosportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes soposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes sonerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@-moz-keyframes sosportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes soposhometer { 
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes sonerdometer {
+0%{ width:0px;} 
+100%{ width:66%;}
+}
+@-webkit-keyframes sosportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.soposhometer { 
+width:63%;
+animation:bar1 2s ease-out;
+}
+.sonerdometer { 
+width:66%;
+animation:bar2 2s ease-out; 
+}
+.sosportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF SOUTHAMPTON */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OXFORD */
+
+#overview-o-meters-14-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .oxposhometer.go { 
+width:78%;
+animation:oxposhometer 2s ease-out;
+}
+.oxnerdometer.go { 
+width:82%;
+animation:oxnerdometer 2s ease-out; 
+}
+.oxsportometer.go { 
+width:63%;
+animation:oxsportometer 2s ease-out; 
+}
+}
+
+@keyframes oxposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@keyframes oxnerdometer {
+0%{ width:0px;} 
+100%{ width:82%;}
+}
+@keyframes oxsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-moz-keyframes oxposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-moz-keyframes oxnerdometer {
+0%{ width:0px;} 
+100%{ width:82%;}
+}
+@-moz-keyframes oxsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@-webkit-keyframes oxposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-webkit-keyframes oxnerdometer {
+0%{ width:0px;} 
+100%{ width:82%;}
+}
+@-webkit-keyframes oxsportometer {
+0%{ width:0px;} 
+100%{ width:63%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.oxposhometer { 
+width:78%;
+animation:bar1 2s ease-out;
+}
+.oxnerdometer { 
+width:82%;
+animation:bar2 2s ease-out; 
+}
+.oxsportometer { 
+width:63%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF OXFORD */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TRENT */
+
+#overview-o-meters-15-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+ .trposhometer.go { 
+width:52%;
+animation:trposhometer 2s ease-out;
+}
+.trnerdometer.go { 
+width:53%;
+animation:trnerdometer 2s ease-out; 
+}
+.trsportometer.go { 
+width:41%;
+animation:trsportometer 2s ease-out; 
+}
+}
+
+@keyframes trposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@keyframes trnerdometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@keyframes trsportometer {
+0%{ width:0px;} 
+100%{ width:41%;}
+}
+@-moz-keyframes trposhometer { 
+0%{ width:0px;} 
+100%{ width:5%;}
+}
+@-moz-keyframes trnerdometer {
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+@-moz-keyframes trsportometer {
+0%{ width:0px;} 
+100%{ width:41%;}
+}
+@-webkit-keyframes trposhometer { 
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes trnerdometer {
+0%{ width:0px;} 
+100%{ width:53%;}
+}
+@-webkit-keyframes trsportometer {
+0%{ width:0px;} 
+100%{ width:41%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.trposhometer { 
+width:52%;
+animation:bar1 2s ease-out;
+}
+.trnerdometer { 
+width:53%;
+animation:bar2 2s ease-out; 
+}
+.trsportometer { 
+width:41%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF TRENT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPERIAL */
+
+#overview-o-meters-16-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .imposhometer.go { 
+width:64%;
+animation:imshometer 2s ease-out;
+}
+.imnerdometer.go { 
+width:86%;
+animation:imnerdometer 2s ease-out; 
+}
+.imsportometer.go { 
+width:52%;
+animation:imsportometer 2s ease-out; 
+}
+}
+
+@keyframes imposhometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@keyframes imnerdometer {
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+@keyframes imsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes imposhometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@-moz-keyframes imerdometer {
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+@-moz-keyframes imsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes imposhometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@-webkit-keyframes imnerdometer {
+0%{ width:0px;} 
+100%{ width:86%;}
+}
+@-webkit-keyframes imsportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.imposhometer { 
+width:64%;
+animation:bar1 2s ease-out;
+}
+.imnerdometer { 
+width:85%;
+animation:bar2 2s ease-out; 
+}
+.imsportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF IMPERIAL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* READING */
+
+#overview-o-meters-17-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .reposhometer.go { 
+width:67%;
+animation:reposhometer 2s ease-out;
+}
+.renerdometer.go { 
+width:62%;
+animation:renerdometer 2s ease-out; 
+}
+.resportometer.go { 
+width:52%;
+animation:resportometer 2s ease-out; 
+}
+}
+
+@keyframes reposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes renerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes resportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-moz-keyframes reposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes renerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes resportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@-webkit-keyframes reposhometer { 
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes renerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes resportometer {
+0%{ width:0px;} 
+100%{ width:52%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.reposhometer { 
+width:67%;
+animation:bar1 2s ease-out;
+}
+.renerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.resportometer { 
+width:52%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF READING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ST ANDREWS */
+
+#overview-o-meters-18-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .stposhometer.go { 
+width:78%;
+animation:stposhometer 2s ease-out;
+}
+.stnerdometer.go { 
+width:72%;
+animation:stnerdometer 2s ease-out; 
+}
+.stsportometer.go { 
+width:55%;
+animation:stsportometer 2s ease-out; 
+}
+}
+
+@keyframes stposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@keyframes stnerdometer {
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@keyframes stsportometer {
+0%{ width:0px;} 
+100%{ width:55%;}
+}
+@-moz-keyframes stposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-moz-keyframes stnerdometer {
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@-moz-keyframes stsportometer {
+0%{ width:0px;} 
+100%{ width:55%;}
+}
+@-webkit-keyframes stposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-webkit-keyframes stnerdometer {
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@-webkit-keyframes stsportometer {
+0%{ width:0px;} 
+100%{ width:55%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.stposhometer { 
+width:78%;
+animation:bar1 2s ease-out;
+}
+.stnerdometer { 
+width:72%;
+animation:bar2 2s ease-out; 
+}
+.stsportometer { 
+width:55%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF ST ANDREWS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BATH */
+
+#overview-o-meters-19-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .baposhometer.go { 
+width:79%;
+animation:baposhometer 2s ease-out;
+}
+.banerdometer.go { 
+width:74%;
+animation:banerdometer 2s ease-out; 
+}
+.basportometer.go { 
+width:68%;
+animation:basportometer 2s ease-out; 
+}
+}
+
+@keyframes baposhometer { 
+0%{ width:0px;} 
+100%{ width:79%;}
+}
+@keyframes banerdometer {
+0%{ width:0px;} 
+100%{ width:74%;}
+}
+@keyframes basportometer {
+0%{ width:0px;} 
+100%{ width:68%;}
+}
+@-moz-keyframes baposhometer { 
+0%{ width:0px;} 
+100%{ width:79%;}
+}
+@-moz-keyframes banerdometer {
+0%{ width:0px;} 
+100%{ width:74%;}
+}
+@-moz-keyframes basportometer {
+0%{ width:0px;} 
+100%{ width:68%;}
+}
+@-webkit-keyframes baposhometer { 
+0%{ width:0px;} 
+100%{ width:79%;}
+}
+@-webkit-keyframes banerdometer {
+0%{ width:0px;} 
+100%{ width:74%;}
+}
+@-webkit-keyframes basportometer {
+0%{ width:0px;} 
+100%{ width:68%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.baposhometer { 
+width:79%;
+animation:bar1 2s ease-out;
+}
+.banerdometer { 
+width:74%;
+animation:bar2 2s ease-out; 
+}
+.basportometer { 
+width:68%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF BATH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESSEX */
+
+#overview-o-meters-20-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .esposhometer.go { 
+width:49%;
+animation:esposhometer 2s ease-out;
+}
+.esnerdometer.go { 
+width:57%;
+animation:esnerdometer 2s ease-out; 
+}
+.essportometer.go { 
+width:36%;
+animation:essportometer 2s ease-out; 
+}
+}
+
+@keyframes esposhometer { 
+0%{ width:0px;} 
+100%{ width:49%;}
+}
+@keyframes esnerdometer {
+0%{ width:0px;} 
+100%{ width:57%;}
+}
+@keyframes essportometer {
+0%{ width:0px;} 
+100%{ width:36%;}
+}
+@-moz-keyframes esposhometer { 
+0%{ width:0px;} 
+100%{ width:49%;}
+}
+@-moz-keyframes esnerdometer {
+0%{ width:0px;} 
+100%{ width:57%;}
+}
+@-moz-keyframes essportometer {
+0%{ width:0px;} 
+100%{ width:36%;}
+}
+@-webkit-keyframes esposhometer { 
+0%{ width:0px;} 
+100%{ width:49%;}
+}
+@-webkit-keyframes esnerdometer {
+0%{ width:0px;} 
+100%{ width:57%;}
+}
+@-webkit-keyframes essportometer {
+0%{ width:0px;} 
+100%{ width:36%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.esposhometer { 
+width:49%;
+animation:bar1 2s ease-out;
+}
+.esnerdometer { 
+width:57%;
+animation:bar2 2s ease-out; 
+}
+.essportometer { 
+width:36%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF ESSEX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEWCASTLE */
+
+#overview-o-meters-21-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .neposhometer.go { 
+width:72%;
+animation:neposhometer 2s ease-out;
+}
+.nenerdometer.go { 
+width:62%;
+animation:nenerdometer 2s ease-out; 
+}
+.nesportometer.go { 
+width:48%;
+animation:nesportometer 2s ease-out; 
+}
+}
+
+@keyframes neposhometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@keyframes nenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@keyframes nesportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-moz-keyframes neposhometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@-moz-keyframes nenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-moz-keyframes nesportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@-webkit-keyframes neposhometer { 
+0%{ width:0px;} 
+100%{ width:72%;}
+}
+@-webkit-keyframes nenerdometer {
+0%{ width:0px;} 
+100%{ width:62%;}
+}
+@-webkit-keyframes nesportometer {
+0%{ width:0px;} 
+100%{ width:48%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.neposhometer { 
+width:72%;
+animation:bar1 2s ease-out;
+}
+.nenerdometer { 
+width:62%;
+animation:bar2 2s ease-out; 
+}
+.nesportometer { 
+width:48%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF NEWCASTLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PORTSMOUTH */
+
+#overview-o-meters-22-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .poposhometer.go { 
+width:51%;
+animation:poposhometer 2s ease-out;
+}
+.ponerdometer.go { 
+width:47%;
+animation:ponerdometer 2s ease-out; 
+}
+.posportometer.go { 
+width:38%;
+animation:posportometer 2s ease-out; 
+}
+}
+
+@keyframes poposhometer { 
+0%{ width:0px;} 
+100%{ width:51%;}
+}
+@keyframes ponerdometer {
+0%{ width:0px;} 
+100%{ width:47%;}
+}
+@keyframes posportometer {
+0%{ width:0px;} 
+100%{ width:38%;}
+}
+@-moz-keyframes poposhometer { 
+0%{ width:0px;} 
+100%{ width:51%;}
+}
+@-moz-keyframes ponerdometer {
+0%{ width:0px;} 
+100%{ width:47%;}
+}
+@-moz-keyframes posportometer {
+0%{ width:0px;} 
+100%{ width:38%;}
+}
+@-webkit-keyframes poposhometer { 
+0%{ width:0px;} 
+100%{ width:51%;}
+}
+@-webkit-keyframes ponerdometer {
+0%{ width:0px;} 
+100%{ width:47%;}
+}
+@-webkit-keyframes posportometer {
+0%{ width:0px;} 
+100%{ width:38%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.poposhometer { 
+width:51%;
+animation:bar1 2s ease-out;
+}
+.ponerdometer { 
+width:47%;
+animation:bar2 2s ease-out; 
+}
+.posportometer { 
+width:38%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF PORTSMOUTH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OXFORD BROOKES NOTE IT'S BRO */
+
+#overview-o-meters-23-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .broposhometer.go { 
+width:78%;
+animation:broposhometer 2s ease-out;
+}
+.bronerdometer.go { 
+width:58%;
+animation:bronerdometer 2s ease-out; 
+}
+.brosportometer.go { 
+width:37%;
+animation:brosportometer 2s ease-out; 
+}
+}
+
+@keyframes broposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@keyframes bronerdometer {
+0%{ width:0px;} 
+100%{ width:57%;}
+}
+@keyframes brosportometer {
+0%{ width:0px;} 
+100%{ width:37%;}
+}
+@-moz-keyframes broposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-moz-keyframes bronerdometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-moz-keyframes brosportometer {
+0%{ width:0px;} 
+100%{ width:37%;}
+}
+@-webkit-keyframes broposhometer { 
+0%{ width:0px;} 
+100%{ width:78%;}
+}
+@-webkit-keyframes bronerdometer {
+0%{ width:0px;} 
+100%{ width:58%;}
+}
+@-webkit-keyframes brosportometer {
+0%{ width:0px;} 
+100%{ width:37%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.broposhometer { 
+width:78%;
+animation:bar1 2s ease-out;
+}
+.bronerdometer { 
+width:58%;
+animation:bar2 2s ease-out; 
+}
+.brosportometer { 
+width:37%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF OXFORD BROOKES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UEA */
+
+#overview-o-meters-24-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .ueaposhometer.go { 
+width:59%;
+animation:ueaposhometer 2s ease-out;
+}
+.ueanerdometer.go { 
+width:64%;
+animation:ueanerdometer 2s ease-out; 
+}
+.ueasportometer.go { 
+width:56%;
+animation:ueasportometer 2s ease-out; 
+}
+}
+
+@keyframes ueaposhometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@keyframes ueanerdometer {
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@keyframes ueasportometer {
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@-moz-keyframes ueaposhometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@-moz-keyframes ueanerdometer {
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@-moz-keyframes ueasportometer {
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@-webkit-keyframes ueaposhometer { 
+0%{ width:0px;} 
+100%{ width:59%;}
+}
+@-webkit-keyframes ueanerdometer {
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@-webkit-keyframes ueasportometer {
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.ueaposhometer { 
+width:59%;
+animation:bar1 2s ease-out;
+}
+.ueanerdometer { 
+width:64%;
+animation:bar2 2s ease-out; 
+}
+.ueasportometer { 
+width:56%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF UEA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SHEFFIELD */
+
+#overview-o-meters-25-section
+ {
+     background: #fff ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #52B3D9 ;
+      h2{
+      color: #52B3D9  ;
+      font-size: 30px;
+         text-align: center;
+         strong {
+         font-size: 50px;
+         font-weight: 800;
+             @media (max-width: 500px){
+    font-size: 30px !important
+    }
+         }
+    }
+      p{
+        text-align: center;
+        color: #52B3D9  ;
+        font-size: 15px;
+        strong{
+          color: #52B3D9   
+        }
+        }
+        h1{
+        font-size: 25px !important;
+        text-transform: none !important;
+        color: #52B3D9 
+        }
+/*  OVERVIEW BARS */
+.overviewbars {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #eee; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 15px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #52B3D9   
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3, h4, h5 {
+          font-size: 16px !important;
+    }
+  }
+  h3, h4, h5 {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #52B3D9  ;
+    line-height: 0;
+    padding-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+  }
+  h3:after {
+    content: "Waitrose";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h4:after {
+    content: "Library ♥";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+  h5:after {
+    content: "OBSESSED";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3, h4, h5 {
+      font-size: 8px !important;
+    }
+  }
+  
+
+.average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 45%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 45%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 45%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average2:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 34%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average2:after {
+  content: "UK: 34%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 34%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+  .average3:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 42%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average3:after {
+  content: "UK: 42%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 42%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+/* BARS */
+  .shposhometer.go { 
+width:56%;
+animation:ueaposhometer 2s ease-out;
+}
+.shnerdometer.go { 
+width:67%;
+animation:ueanerdometer 2s ease-out; 
+}
+.shsportometer.go { 
+width:54%;
+animation:ueasportometer 2s ease-out; 
+}
+}
+
+@keyframes shposhometer { 
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@keyframes shnerdometer {
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@keyframes shsportometer {
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+@-moz-keyframes shposhometer { 
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@-moz-keyframes shnerdometer {
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-moz-keyframes shsportometer {
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+@-webkit-keyframes shposhometer { 
+0%{ width:0px;} 
+100%{ width:56%;}
+}
+@-webkit-keyframes shnerdometer {
+0%{ width:0px;} 
+100%{ width:67%;}
+}
+@-webkit-keyframes shsportometer {
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+@media (max-width : 667px) {
+.overviewbars {
+.shposhometer { 
+width:56%;
+animation:bar1 2s ease-out;
+}
+.shnerdometer { 
+width:67%;
+animation:bar2 2s ease-out; 
+}
+.shsportometer { 
+width:54%;
+animation:bar3 2s ease-out; 
+}
+}
+/* BARS */
+
+
+
+}
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222 ;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+ }
+/* END OF SHEFFIELD */
+

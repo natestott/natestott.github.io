@@ -1,0 +1,411 @@
+
+
+
+/* EXPENSE-O-METER AT BOTTOM */
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+/* MONEY NUMBERS */
+#money-numbers-section,
+#money-numbers-0-section,
+#money-numbers-1-section,
+#money-numbers-2-section,
+#money-numbers-3-section,
+#money-numbers-4-section,
+#money-numbers-5-section,
+#money-numbers-6-section,
+#money-numbers-7-section,
+#money-numbers-8-section,
+#money-numbers-9-section,
+#money-numbers-10-section,
+#money-numbers-11-section,
+#money-numbers-12-section,
+#money-numbers-13-section,
+#money-numbers-14-section,
+#money-numbers-15-section,
+#money-numbers-16-section,
+#money-numbers-17-section,
+#money-numbers-18-section,
+#money-numbers-19-section,
+#money-numbers-20-section,
+#money-numbers-21-section,
+#money-numbers-22-section,
+#money-numbers-23-section,
+#money-numbers-24-section,
+#money-numbers-25-section,
+#money-numbers-26-section,
+#money-numbers-27-section,
+#money-numbers-28-section,
+#money-numbers-29-section,
+#money-numbers-30-section,
+#money-numbers-31-section,
+#money-numbers-32-section,
+#money-numbers-33-section,
+#money-numbers-34-section,
+#money-numbers-35-section,
+#money-numbers-36-section,
+#money-numbers-37-section,
+#money-numbers-38-section,
+#money-numbers-39-section,
+#money-numbers-40-section,
+#money-numbers-41-section,
+#money-numbers-42-section,
+#money-numbers-43-section,
+#money-numbers-44-section,
+#money-numbers-45-section,
+#money-numbers-46-section,
+#money-numbers-47-section,
+#money-numbers-48-section,
+#money-numbers-49-section,
+#money-numbers-50-section,
+#money-numbers-51-section,
+#money-numbers-52-section,
+#money-numbers-53-section,
+#money-numbers-54-section,
+#money-numbers-55-section,
+#money-numbers-56-section,
+#money-numbers-57-section,
+#money-numbers-58-section,
+#money-numbers-59-section,
+#money-numbers-60-section,
+#money-numbers-61-section,
+#money-numbers-62-section,
+#money-numbers-63-section,
+#money-numbers-64-section,
+#money-numbers-65-section,
+#money-numbers-66-section,
+#money-numbers-67-section,
+#money-numbers-68-section,
+#money-numbers-69-section,
+#money-numbers-70-section,
+#money-numbers-71-section,
+#money-numbers-72-section,
+#money-numbers-73-section,
+#money-numbers-74-section,
+#money-numbers-75-section,
+#money-numbers-76-section,
+#money-numbers-77-section,
+#money-numbers-78-section,
+#money-numbers-79-section,
+#money-numbers-80-section,
+#money-numbers-81-section,
+#money-numbers-82-section,
+#money-numbers-83-section,
+#money-numbers-84-section,
+#money-numbers-85-section,
+#money-numbers-86-section,
+#money-numbers-87-section,
+#money-numbers-88-section,
+#money-numbers-89-section,
+#money-numbers-90-section,
+#money-numbers-91-section,
+#money-numbers-92-section,
+#money-numbers-93-section,
+#money-numbers-94-section,
+#money-numbers-95-section,
+#money-numbers-96-section,
+#money-numbers-97-section,
+#money-numbers-98-section,
+#money-numbers-99-section,
+#money-numbers-100-section
+
+
+
+ {
+  background: #F64747    ;
+  p{
+    text-align: center;
+    line-height: 1.2;
+    color: #F4D03F     ;
+    text-transform: none;
+    font-size: 15px !important;
+    font-weight: 700
+  }
+   h1{
+    font-size: 60px;
+    line-height: 0px;
+    color: #F4D03F      ;
+    text-align: center;
+     padding-top: 0px !important
+  }
+  h3{
+    text-transform: none;
+    font-size: 15px;
+    color: #F4D03F ;
+    font-weight: 700;
+    letter-spacing: 0
+  }
+  h2{
+  color: #F4D03F  ;
+    font-size: 50px;
+        @media (max-width: 500px){
+    font-size: 30px !important
+    }
+
+  }
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 500px){
+    display: none
+    }
+  }  
+}
+/* END OF MONEY NUMBERS */
+
+
+
+
+
+
+
+
+
+
+
+
+/* MONEY ADVICE SECTION */
+#money-advice-section,
+#money-advice-0-section,
+#money-advice-1-section,
+#money-advice-2-section,
+#money-advice-3-section,
+#money-advice-4-section,
+#money-advice-5-section,
+#money-advice-6-section,
+#money-advice-7-section,
+#money-advice-8-section,
+#money-advice-9-section,
+#money-advice-10-section,
+#money-advice-11-section,
+#money-advice-12-section,
+#money-advice-13-section,
+#money-advice-14-section,
+#money-advice-15-section,
+#money-advice-16-section,
+#money-advice-17-section,
+#money-advice-18-section,
+#money-advice-19-section,
+#money-advice-20-section,
+#money-advice-21-section,
+#money-advice-22-section,
+#money-advice-23-section,
+#money-advice-24-section,
+#money-advice-25-section,
+#money-advice-26-section,
+#money-advice-27-section,
+#money-advice-28-section,
+#money-advice-29-section,
+#money-advice-30-section,
+#money-advice-31-section,
+#money-advice-32-section,
+#money-advice-33-section,
+#money-advice-34-section,
+#money-advice-35-section,
+#money-advice-36-section,
+#money-advice-37-section,
+#money-advice-38-section,
+#money-advice-39-section,
+#money-advice-40-section,
+#money-advice-41-section,
+#money-advice-42-section,
+#money-advice-43-section,
+#money-advice-44-section,
+#money-advice-45-section,
+#money-advice-46-section,
+#money-advice-47-section,
+#money-advice-48-section,
+#money-advice-49-section,
+#money-advice-50-section,
+#money-advice-51-section,
+#money-advice-52-section,
+#money-advice-53-section,
+#money-advice-54-section,
+#money-advice-55-section,
+#money-advice-56-section,
+#money-advice-57-section,
+#money-advice-58-section,
+#money-advice-59-section,
+#money-advice-60-section,
+#money-advice-61-section,
+#money-advice-62-section,
+#money-advice-63-section,
+#money-advice-64-section,
+#money-advice-65-section,
+#money-advice-66-section,
+#money-advice-67-section,
+#money-advice-68-section,
+#money-advice-69-section,
+#money-advice-70-section,
+#money-advice-71-section,
+#money-advice-72-section,
+#money-advice-73-section,
+#money-advice-74-section,
+#money-advice-75-section,
+#money-advice-76-section,
+#money-advice-77-section,
+#money-advice-78-section,
+#money-advice-79-section,
+#money-advice-80-section,
+#money-advice-81-section,
+#money-advice-82-section,
+#money-advice-83-section,
+#money-advice-84-section,
+#money-advice-85-section,
+#money-advice-86-section,
+#money-advice-87-section,
+#money-advice-88-section,
+#money-advice-89-section,
+#money-advice-90-section,
+#money-advice-91-section,
+#money-advice-92-section,
+#money-advice-93-section,
+#money-advice-94-section,
+#money-advice-95-section,
+#money-advice-96-section,
+#money-advice-97-section,
+#money-advice-98-section,
+#money-advice-99-section,
+#money-advice-100-section
+
+
+
+
+
+ {
+  background: #00B16A   ;
+  h2{
+    font-size: 50px;
+    color: #F4D03F ;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h3{
+    text-transform: none;
+    color: #F4D03F;
+    text-align: left
+  }
+  p{
+    color: #F4D03F ;
+  }
+     h6{
+    letter-spacing: -2px;
+    line-height: 0px;
+    font-size: 15px
+  }
+  /* CUSTOM CSS */
+.sqs-block-markdown {
+//LIST ICONS
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 10px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      //END OF LIST ICONS
+  @media (max-width:1000px){
+    h2{
+      font-size: 20px !important
+    }
+  }
+  h2 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F  ;
+    background: #F4D03F    ;
+    color: #292929   ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 14px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+  p {
+    padding: 20px 30px;
+    background: #f7f7f7;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .dropcontent {
+  .moneyinfo {
+        color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: left;
+          text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+      span{
+      font-size: 35px !important
+    }
+    }
+
+  }
+  }
+}
+/* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+}
+/* END OF MONEY ADVICE */

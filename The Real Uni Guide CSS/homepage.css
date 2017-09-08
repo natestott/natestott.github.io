@@ -1,0 +1,110 @@
+
+
+
+
+/* CENTRAL */
+#central-home-section {
+  .content {
+  padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px
+}
+  h2{
+    font-size: 40px
+  }
+}
+/* END OF CENTRAL */
+
+
+
+
+
+
+
+
+
+
+
+/* CHOOSE YOUR UNI */
+#choose-your-uni-section{
+  background: #52B3D9        ;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #F4D03F     
+  }
+  p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* CUSTOM CSS */
+.sqs-block-button 
+  .sqs-block-button-element--small {
+width: 70% !important;
+    border: solid 1px #222;
+color: #222 !important;
+background: #F4D03F !important;
+border-radius: 1px !important;
+transition: all ease-in-out 700ms !important;
+}
+.sqs-block-button .sqs-block-button-element--small:hover {
+background: #00B16A !important;
+color: #222 !important;
+}
+}
+/* END OF CHOOSE YOUR UNI */
+
+
+
+
+
+
+
+
+
+
+
+/* NUMBERS SECTION */
+#numbers-section {
+  background: #ECF0F1    ;
+  border: 10px solid #1BA39C;
+      h2 {
+      color: #1BA39C !important;
+      font-size: 30px;
+    }
+  p{
+    color: #1BA39C
+  }
+  .aboutcounter-container {
+  margin: auto;
+  color: #1BA39C;
+  text-align: center;
+  display: table;
+  border-spacing: 10px !important;
+}
+  /* COUNTERS */
+#aboutcounterbox {
+  display: inline-block;
+}
+.aboutcounter {
+  display: table-cell;
+  font-size: 70px;
+  font-weight: 700;
+  background: none !important;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 20px !important;
+  
+}
+  .sqs-block-horizontalrule hr {
+     display: block !important;
+     background: #1BA39C !important;
+   }
+}
+/* END OF NUMBERS SECTION */
+
+/* END OF CENTRAL HOME */
+

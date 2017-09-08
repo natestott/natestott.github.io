@@ -1,0 +1,212 @@
+
+/* CAMPUS INFO */
+#campus-info-section,
+#campus-info-0-section,
+#campus-info-1-section,
+#campus-info-2-section,
+#campus-info-3-section,
+#campus-info-4-section,
+#campus-info-5-section,
+#campus-info-6-section,
+#campus-info-7-section,
+#campus-info-8-section,
+#campus-info-9-section,
+#campus-info-10-section,
+#campus-info-11-section,
+#campus-info-12-section,
+#campus-info-13-section,
+#campus-info-14-section,
+#campus-info-15-section,
+#campus-info-16-section,
+#campus-info-17-section,
+#campus-info-18-section,
+#campus-info-19-section,
+#campus-info-20-section,
+#campus-info-21-section,
+#campus-info-22-section,
+#campus-info-23-section,
+#campus-info-24-section,
+#campus-info-25-section,
+#campus-info-26-section,
+#campus-info-27-section,
+#campus-info-28-section,
+#campus-info-29-section,
+#campus-info-30-section,
+#campus-info-31-section,
+#campus-info-32-section,
+#campus-info-33-section,
+#campus-info-34-section,
+#campus-info-35-section,
+#campus-info-36-section,
+#campus-info-37-section,
+#campus-info-38-section,
+#campus-info-39-section,
+#campus-info-40-section,
+#campus-info-41-section,
+#campus-info-42-section,
+#campus-info-43-section,
+#campus-info-44-section,
+#campus-info-45-section,
+#campus-info-46-section,
+#campus-info-47-section,
+#campus-info-48-section,
+#campus-info-49-section,
+#campus-info-50-section,
+#campus-info-51-section,
+#campus-info-52-section,
+#campus-info-53-section,
+#campus-info-54-section,
+#campus-info-55-section,
+#campus-info-56-section,
+#campus-info-57-section,
+#campus-info-58-section,
+#campus-info-59-section,
+#campus-info-60-section,
+#campus-info-61-section,
+#campus-info-62-section,
+#campus-info-63-section,
+#campus-info-64-section,
+#campus-info-65-section,
+#campus-info-66-section,
+#campus-info-67-section,
+#campus-info-68-section,
+#campus-info-69-section,
+#campus-info-70-section,
+#campus-info-71-section,
+#campus-info-72-section,
+#campus-info-73-section,
+#campus-info-74-section,
+#campus-info-75-section,
+#campus-info-76-section,
+#campus-info-77-section,
+#campus-info-78-section,
+#campus-info-79-section,
+#campus-info-80-section,
+#campus-info-81-section,
+#campus-info-82-section,
+#campus-info-83-section,
+#campus-info-84-section,
+#campus-info-85-section,
+#campus-info-86-section,
+#campus-info-87-section,
+#campus-info-88-section,
+#campus-info-89-section,
+#campus-info-90-section,
+#campus-info-91-section,
+#campus-info-92-section,
+#campus-info-93-section,
+#campus-info-94-section,
+#campus-info-95-section,
+#campus-info-96-section,
+#campus-info-97-section,
+#campus-info-98-section,
+#campus-info-99-section,
+#campus-info-100-section
+
+
+ {
+p{
+color: #F4D03F;
+font-size: 15px;
+line-height: 1
+}
+h1{
+font-size: 22px !important;
+font-weight: 600
+}
+h2{
+font-size: 40px;
+color: #F4D03F;
+    @media (max-width: 500px){
+    font-size: 30px !important
+    }
+}
+h3{
+font-size: 15px;
+text-transform: none;
+font-weight: 600
+}
+h4{
+font-size: 13px;
+font-weight: 600
+}
+/* DROPDOWN */
+.sqs-block-markdown {
+    /* LIST ICONS */
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 30px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      /* END OF LIST ICONS */
+  h2 {
+    font-size: 18px !important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #F4D03F   ;
+    background: #F4D03F     ;
+    color: #292929   ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.8;
+}
+  .dropcontent {
+  .campusinfo {
+    background: #fff;
+    color: #444;
+    width: 100%;
+    margin-top: 0px;
+    border-left: solid 20px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #fcfcfc;
+    td {
+      padding: 0px 0px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+  }
+}
+  background: #52B3D9;
+/* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+  }  
+}
+/* END OF CAMPUS INFO */

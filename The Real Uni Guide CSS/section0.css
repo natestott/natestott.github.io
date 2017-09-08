@@ -1,0 +1,700 @@
+/* HOME SECTION */
+#home-section,
+#home-0-section, 
+#home-1-section, 
+#home-2-section, 
+#home-3-section, 
+#home-4-section, 
+#home-5-section, 
+#home-6-section, 
+#home-7-section, 
+#home-8-section, 
+#home-9-section,
+#home-10-section,
+#home-11-section, 
+#home-12-section, 
+#home-13-section, 
+#home-14-section, 
+#home-15-section, 
+#home-16-section, 
+#home-17-section, 
+#home-18-section, 
+#home-19-section,
+#home-20-section,
+#home-21-section, 
+#home-22-section, 
+#home-23-section, 
+#home-24-section, 
+#home-25-section, 
+#home-26-section, 
+#home-27-section, 
+#home-28-section, 
+#home-29-section,
+#home-30-section,
+#home-31-section, 
+#home-32-section, 
+#home-33-section, 
+#home-34-section, 
+#home-35-section, 
+#home-36-section, 
+#home-37-section, 
+#home-38-section, 
+#home-39-section,
+#home-40-section,
+#home-41-section, 
+#home-42-section, 
+#home-43-section, 
+#home-44-section, 
+#home-45-section, 
+#home-46-section, 
+#home-47-section, 
+#home-48-section, 
+#home-49-section,
+#home-50-section,
+#home-51-section, 
+#home-52-section, 
+#home-53-section, 
+#home-54-section, 
+#home-55-section, 
+#home-56-section, 
+#home-57-section, 
+#home-58-section, 
+#home-59-section,
+#home-60-section,
+#home-61-section, 
+#home-62-section, 
+#home-63-section, 
+#home-64-section, 
+#home-65-section, 
+#home-66-section, 
+#home-67-section, 
+#home-68-section, 
+#home-69-section,
+#home-70-section,
+#home-71-section, 
+#home-72-section, 
+#home-73-section, 
+#home-74-section, 
+#home-75-section, 
+#home-76-section, 
+#home-77-section, 
+#home-78-section, 
+#home-79-section,
+#home-80-section,
+#home-81-section, 
+#home-82-section, 
+#home-83-section, 
+#home-84-section, 
+#home-85-section, 
+#home-86-section, 
+#home-87-section, 
+#home-88-section, 
+#home-89-section,
+#home-90-section,
+#home-91-section, 
+#home-92-section, 
+#home-93-section, 
+#home-94-section, 
+#home-95-section, 
+#home-96-section, 
+#home-97-section, 
+#home-98-section, 
+#home-99-section,
+#home-100-section
+
+
+  
+{
+  position: relative;
+  z-index: 1000000000000000000;
+  @media (min-width: 800px) {
+      margin-left: -18% !important;
+
+  }
+  .content {
+    padding-top: 200px;
+    padding-bottom: 200px
+  }
+  h1 {
+    line-height: 1;
+    font-size: 100px;
+    letter-spacing: 2px !Important;
+    color: #fff     
+  }
+   p {
+    line-height: 1;
+    font-size: 25px;
+    letter-spacing: 2px !Important;
+    color: #fff ;
+    font-weight: 700;    
+  }
+       /* SWIPE ANIMATION CSS */
+.sp-intro {
+width: 100% !important;
+max-width: 100%;
+text-align: center !important;
+margin: 0 auto;
+}
+.sp-intro, .sp-words-wrapper {
+h4, b, i, p, span {
+  width: 100% !important;
+line-height: 46px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+font-size: 25px !important;
+font-weight: 800 !important;
+font-style: initial;
+  display: inline-block !important;
+text-align: center !important;
+  text-transform: none;
+color: #fff         ;
+}
+}
+.sp-words-wrapper {
+display: inline !important;
+position: relative;
+text-align: center !important;
+}
+.sp-words-wrapper b {
+display: inline-block;
+position: absolute;
+white-space: nowrap;
+left: 0;
+top: 0;
+}
+.sp-words-wrapper b.is-visible {
+position: relative;
+}
+.no-js .sp-words-wrapper b {
+opacity: 0;
+}
+.no-js .sp-words-wrapper b.is-visible {
+opacity: 1;
+}
+
+.sp-headline.slide span {
+display: inline-block;
+padding: 0;
+}
+.sp-headline.slide .sp-words-wrapper {
+overflow: ;
+vertical-align: bottom;
+}
+.sp-headline.slide b {
+opacity: 0;
+top: .2em;
+}
+.sp-headline.slide b.is-visible {
+top: 0;
+opacity: 1;
+-webkit-animation: slide-in 1s;
+-moz-animation: slide-in 1s;
+animation: slide-in 1s;
+}
+.sp-headline.slide b.is-hidden {
+-webkit-animation: slide-out 1s;
+-moz-animation: slide-out 1s;
+animation: slide-out 1s;
+}
+
+@-webkit-keyframes slide-in {
+0% {
+opacity: 0;
+-webkit-transform: translateY(-100%);
+}
+60% {
+opacity: 1;
+-webkit-transform: translateY(20%);
+}
+100% {
+opacity: 1;
+-webkit-transform: translateY(0);
+}
+}
+@-moz-keyframes slide-in {
+0% {
+opacity: 0;
+-moz-transform: translateY(-100%);
+}
+60% {
+opacity: 1;
+-moz-transform: translateY(20%);
+}
+100% {
+opacity: 1;
+-moz-transform: translateY(0);
+}
+}
+@keyframes slide-in {
+0% {
+opacity: 0;
+-webkit-transform: translateY(-100%);
+-moz-transform: translateY(-100%);
+-ms-transform: translateY(-100%);
+-o-transform: translateY(-100%);
+transform: translateY(-100%);
+}
+60% {
+opacity: 1;
+-webkit-transform: translateY(20%);
+-moz-transform: translateY(20%);
+-ms-transform: translateY(20%);
+-o-transform: translateY(20%);
+transform: translateY(20%);
+}
+100% {
+opacity: 1;
+-webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+}
+}
+@-webkit-keyframes slide-out {
+0% {
+opacity: 1;
+-webkit-transform: translateY(0);
+}
+60% {
+opacity: 0;
+-webkit-transform: translateY(120%);
+}
+100% {
+opacity: 0;
+-webkit-transform: translateY(100%);
+}
+}
+@-moz-keyframes slide-out {
+0% {
+opacity: 1;
+-moz-transform: translateY(0);
+}
+60% {
+opacity: 0;
+-moz-transform: translateY(120%);
+}
+100% {
+opacity: 0;
+-moz-transform: translateY(100%);
+}
+}
+@keyframes slide-out {
+0% {
+opacity: 1;
+-webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+-o-transform: translateY(0);
+transform: translateY(0);
+}
+60% {
+opacity: 0;
+-webkit-transform: translateY(120%);
+-moz-transform: translateY(120%);
+-ms-transform: translateY(120%);
+-o-transform: translateY(120%);
+transform: translateY(120%);
+}
+100% {
+opacity: 0;
+-webkit-transform: translateY(100%);
+-moz-transform: translateY(100%);
+-ms-transform: translateY(100%);
+-o-transform: translateY(100%);
+transform: translateY(100%);
+}
+}
+/* TABLET STYLES */
+@media (min-width : 668px) and (max-width : 1024px) {
+.sp-intro, .sp-words-wrapper {
+h4, b, i, p, span {
+line-height: 46px;
+font-size: 18px;
+font-weight: 600;
+  text-align: center;
+  max-width: 100%
+}
+}
+}
+/*  MOBILE STYLES */
+@media (max-width : 667px) {
+.sp-intro, .sp-words-wrapper {
+h4, b, i, span, p {
+line-height: 26px !important;
+font-size: 15px !important;
+font-weight: 900 !important;
+  max-width: 100%;
+  text-align: center;
+  padding: 0px
+}
+}
+}
+/* END OF SWIPE ANIMATION */
+}
+/* END OF HOME SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+/* INTRO SECTION */
+#intro-section,
+#intro-0-section,
+#intro-1-section,
+#intro-2-section,
+#intro-3-section,
+#intro-4-section,
+#intro-5-section,
+#intro-6-section,
+#intro-7-section,
+#intro-8-section,
+#intro-9-section,
+#intro-10-section,
+#intro-11-section,
+#intro-12-section,
+#intro-13-section,
+#intro-14-section,
+#intro-15-section,
+#intro-16-section,
+#intro-17-section,
+#intro-18-section,
+#intro-19-section,
+#intro-20-section,
+#intro-21-section,
+#intro-22-section,
+#intro-23-section,
+#intro-24-section,
+#intro-25-section,
+#intro-26-section,
+#intro-27-section,
+#intro-28-section,
+#intro-29-section,
+#intro-30-section,
+#intro-31-section,
+#intro-32-section,
+#intro-33-section,
+#intro-34-section,
+#intro-35-section,
+#intro-36-section,
+#intro-37-section,
+#intro-38-section,
+#intro-39-section,
+#intro-40-section,
+#intro-41-section,
+#intro-42-section,
+#intro-43-section,
+#intro-44-section,
+#intro-45-section,
+#intro-46-section,
+#intro-47-section,
+#intro-48-section,
+#intro-49-section,
+#intro-50-section,
+#intro-51-section,
+#intro-52-section,
+#intro-53-section,
+#intro-54-section,
+#intro-55-section,
+#intro-56-section,
+#intro-57-section,
+#intro-58-section,
+#intro-59-section,
+#intro-60-section,
+#intro-61-section,
+#intro-62-section,
+#intro-63-section,
+#intro-64-section,
+#intro-65-section,
+#intro-66-section,
+#intro-67-section,
+#intro-68-section,
+#intro-69-section,
+#intro-70-section,
+#intro-71-section,
+#intro-72-section,
+#intro-73-section,
+#intro-74-section,
+#intro-75-section,
+#intro-76-section,
+#intro-77-section,
+#intro-78-section,
+#intro-79-section,
+#intro-80-section,
+#intro-81-section,
+#intro-82-section,
+#intro-83-section,
+#intro-84-section,
+#intro-85-section,
+#intro-86-section,
+#intro-87-section,
+#intro-88-section,
+#intro-89-section,
+#intro-90-section,
+#intro-91-section,
+#intro-92-section,
+#intro-93-section,
+#intro-94-section,
+#intro-95-section,
+#intro-96-section,
+#intro-97-section,
+#intro-98-section,
+#intro-99-section,
+#intro-100-section
+
+
+
+
+
+ {
+  background: #52B3D9       ;
+      p {
+        color: #F4D03F    ;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0px;
+        text-align: center
+      }
+    h2{
+      color: #F4D03F      ;
+      font-size: 50px;
+        @media (max-width: 500px){
+    font-size: 30px !important
+    }
+    }
+  }
+/* END OF INTRO SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOW DOES IT WORK */
+#how-does-it-work-section,
+#how-does-it-work-0-section,
+#how-does-it-work-1-section,
+#how-does-it-work-2-section,
+#how-does-it-work-3-section,
+#how-does-it-work-4-section,
+#how-does-it-work-5-section,
+#how-does-it-work-6-section,
+#how-does-it-work-7-section,
+#how-does-it-work-8-section,
+#how-does-it-work-9-section,
+#how-does-it-work-10-section,
+#how-does-it-work-11-section,
+#how-does-it-work-12-section,
+#how-does-it-work-13-section,
+#how-does-it-work-14-section,
+#how-does-it-work-15-section,
+#how-does-it-work-16-section,
+#how-does-it-work-17-section,
+#how-does-it-work-18-section,
+#how-does-it-work-19-section,
+#how-does-it-work-20-section,
+#how-does-it-work-21-section,
+#how-does-it-work-22-section,
+#how-does-it-work-23-section,
+#how-does-it-work-24-section,
+#how-does-it-work-25-section,
+#how-does-it-work-26-section,
+#how-does-it-work-27-section,
+#how-does-it-work-28-section,
+#how-does-it-work-29-section,
+#how-does-it-work-30-section,
+#how-does-it-work-31-section,
+#how-does-it-work-32-section,
+#how-does-it-work-33-section,
+#how-does-it-work-34-section,
+#how-does-it-work-35-section,
+#how-does-it-work-36-section,
+#how-does-it-work-37-section,
+#how-does-it-work-38-section,
+#how-does-it-work-39-section,
+#how-does-it-work-40-section,
+#how-does-it-work-41-section,
+#how-does-it-work-42-section,
+#how-does-it-work-43-section,
+#how-does-it-work-44-section,
+#how-does-it-work-45-section,
+#how-does-it-work-46-section,
+#how-does-it-work-47-section,
+#how-does-it-work-48-section,
+#how-does-it-work-49-section,
+#how-does-it-work-50-section,
+#how-does-it-work-51-section,
+#how-does-it-work-52-section,
+#how-does-it-work-53-section,
+#how-does-it-work-54-section,
+#how-does-it-work-55-section,
+#how-does-it-work-56-section,
+#how-does-it-work-57-section,
+#how-does-it-work-58-section,
+#how-does-it-work-59-section,
+#how-does-it-work-60-section,
+#how-does-it-work-61-section,
+#how-does-it-work-62-section,
+#how-does-it-work-63-section,
+#how-does-it-work-64-section,
+#how-does-it-work-65-section,
+#how-does-it-work-66-section,
+#how-does-it-work-67-section,
+#how-does-it-work-68-section,
+#how-does-it-work-69-section,
+#how-does-it-work-70-section,
+#how-does-it-work-71-section,
+#how-does-it-work-72-section,
+#how-does-it-work-73-section,
+#how-does-it-work-74-section,
+#how-does-it-work-75-section,
+#how-does-it-work-76-section,
+#how-does-it-work-77-section,
+#how-does-it-work-78-section,
+#how-does-it-work-79-section,
+#how-does-it-work-80-section,
+#how-does-it-work-81-section,
+#how-does-it-work-82-section,
+#how-does-it-work-83-section,
+#how-does-it-work-84-section,
+#how-does-it-work-85-section,
+#how-does-it-work-86-section,
+#how-does-it-work-87-section,
+#how-does-it-work-88-section,
+#how-does-it-work-89-section,
+#how-does-it-work-90-section,
+#how-does-it-work-91-section,
+#how-does-it-work-92-section,
+#how-does-it-work-93-section,
+#how-does-it-work-94-section,
+#how-does-it-work-95-section,
+#how-does-it-work-96-section,
+#how-does-it-work-97-section,
+#how-does-it-work-98-section,
+#how-does-it-work-99-section,
+#how-does-it-work-100-section
+
+
+
+ {
+  background: #F4D03F      ;
+      p {
+        color: #F64747   ;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0px;
+        text-align: center
+      }
+  hr {
+    background-color: #F64747
+  }
+    h2{
+      color: #F64747     ;
+      font-size: 50px;
+        @media (max-width: 500px){
+    font-size: 30px !important
+    }
+    }
+  h1{
+    color: #F64747  ;
+    font-size: 20px
+  }
+      /* COUNTERS */
+  .counter-container {
+  color: #F64747  ;
+  text-align: center !important;
+  border-spacing: 60px !important;
+}
+#counterboxone, #counterboxtwo, #counterboxthree {
+  padding-bottom: 0px;
+  margin-bottom: -70px;
+  padding-top: 50px;
+  align: center
+}
+#counterboxone p {
+  margin: 0 !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+#counterboxtwo p {
+  margin: 0 !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+#counterboxthree p {
+  margin: 0 !important;
+  bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: center !important;
+  strong {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-top: 10px
+  }
+}
+.counter {
+  font-size: 80px;
+  font-weight: 700;
+  background: none !important;
+  align: center;
+  padding-bottom: 30px
+}
+  /* END OF COUNTERS */
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    width: 90% !important;
+    margin: 0 auto;
+    height: 2px !important;
+    background: #222;
+    @media (min-width: 668px){
+    display: none
+    }
+}
+  }
+/* END OF HOW DOES IT WORK */

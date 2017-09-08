@@ -1,0 +1,422 @@
+
+/* HALLS SECTION-DROP DOWN */
+#halls-drop-down-section,
+#halls-drop-down-0-section,
+#halls-drop-down-1-section,
+#halls-drop-down-2-section,
+#halls-drop-down-3-section,
+#halls-drop-down-4-section,
+#halls-drop-down-5-section,
+#halls-drop-down-6-section,
+#halls-drop-down-7-section,
+#halls-drop-down-8-section,
+#halls-drop-down-9-section,
+#halls-drop-down-10-section,
+#halls-drop-down-11-section,
+#halls-drop-down-12-section,
+#halls-drop-down-13-section,
+#halls-drop-down-14-section,
+#halls-drop-down-15-section,
+#halls-drop-down-16-section,
+#halls-drop-down-17-section,
+#halls-drop-down-18-section,
+#halls-drop-down-19-section,
+#halls-drop-down-20-section,
+#halls-drop-down-21-section,
+#halls-drop-down-22-section,
+#halls-drop-down-23-section,
+#halls-drop-down-24-section,
+#halls-drop-down-25-section,
+#halls-drop-down-26-section,
+#halls-drop-down-27-section,
+#halls-drop-down-28-section,
+#halls-drop-down-29-section,
+#halls-drop-down-30-section,
+#halls-drop-down-31-section,
+#halls-drop-down-32-section,
+#halls-drop-down-33-section,
+#halls-drop-down-34-section,
+#halls-drop-down-35-section,
+#halls-drop-down-36-section,
+#halls-drop-down-37-section,
+#halls-drop-down-38-section,
+#halls-drop-down-39-section,
+#halls-drop-down-40-section,
+#halls-drop-down-41-section,
+#halls-drop-down-42-section,
+#halls-drop-down-43-section,
+#halls-drop-down-44-section,
+#halls-drop-down-45-section,
+#halls-drop-down-46-section,
+#halls-drop-down-47-section,
+#halls-drop-down-48-section,
+#halls-drop-down-49-section,
+#halls-drop-down-50-section,
+#halls-drop-down-51-section,
+#halls-drop-down-52-section,
+#halls-drop-down-53-section,
+#halls-drop-down-54-section,
+#halls-drop-down-55-section,
+#halls-drop-down-56-section,
+#halls-drop-down-57-section,
+#halls-drop-down-58-section,
+#halls-drop-down-59-section,
+#halls-drop-down-60-section,
+#halls-drop-down-61-section,
+#halls-drop-down-62-section,
+#halls-drop-down-63-section,
+#halls-drop-down-64-section,
+#halls-drop-down-65-section,
+#halls-drop-down-66-section,
+#halls-drop-down-67-section,
+#halls-drop-down-68-section,
+#halls-drop-down-69-section,
+#halls-drop-down-70-section,
+#halls-drop-down-71-section,
+#halls-drop-down-72-section,
+#halls-drop-down-73-section,
+#halls-drop-down-74-section,
+#halls-drop-down-75-section,
+#halls-drop-down-76-section,
+#halls-drop-down-77-section,
+#halls-drop-down-78-section,
+#halls-drop-down-79-section,
+#halls-drop-down-80-section,
+#halls-drop-down-81-section,
+#halls-drop-down-82-section,
+#halls-drop-down-83-section,
+#halls-drop-down-84-section,
+#halls-drop-down-85-section,
+#halls-drop-down-86-section,
+#halls-drop-down-87-section,
+#halls-drop-down-88-section,
+#halls-drop-down-89-section,
+#halls-drop-down-90-section,
+#halls-drop-down-91-section,
+#halls-drop-down-92-section,
+#halls-drop-down-93-section,
+#halls-drop-down-94-section,
+#halls-drop-down-95-section,
+#halls-drop-down-96-section,
+#halls-drop-down-97-section,
+#halls-drop-down-98-section,
+#halls-drop-down-99-section,
+#halls-drop-down-100-section
+
+ {
+  background: #F4D03F ;
+  p{
+  color: #F64747 ;
+  font-size: 15px
+  }
+  h2{
+  font-size: 40px;
+  color: #F64747 ;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h3{
+  text-transform: none;
+  line-height: 0;
+  font-size: 12px
+  }
+/* DROP DOWN CSS */
+.sqs-block-markdown {
+    //LIST ICONS
+      body {
+   counter-reset: item;
+ }
+ ol {
+   list-style: none;
+   text-align: left ;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 10px;
+ }
+ li:before {
+   margin-right: 10px;
+   margin-left: -35px;
+   content: counter(item);
+   background: #52B3D9 ;
+   border-radius: 100%;
+   color: white;;
+   font-size: 15px;
+   width: 1.6em;
+   height: 1.6em;
+   text-align: center;
+   display: inline-block;
+ }
+      /* END OF LIST ICONS */
+  h2 {
+    font-size: 20px !important;
+    strong {
+      font-size: 15px;
+      line-height: 0px;
+    }
+    text-align: center;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: solid 0px #f65959;
+    background: #f65959;
+    color: #fff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    -webkit-transition: all ease-in-out 300ms !important;
+    -moz-transition: all ease-in-out 300ms !important;
+    transition: all ease-in-out 300ms !important;
+  }
+  h2:hover {
+  opacity: 0.7;
+    color: #fff 
+}
+  .dropcontent, .thebestandworst {
+  .hallicons {
+    color: #444;
+    width: 100%;
+    background: #52B3D9;
+    margin-top: -200px;
+    margin-bottom: -10px;
+    border-left: solid 10px #52B3D9;
+    border-right: solid 10px #52B3D9;
+    border-bottom: solid 20px #52B3D9 ;
+    td {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 40px;
+      width: 16.5%;
+      span {
+        font-size: 10px;
+        padding-top: 7px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .text1, .thebest {
+    display: ;
+    color: #444;
+    width: 100%;
+    background: #95a5a6;
+    margin-top: -70px;
+    margin-bottom: -70px;
+    border-left: solid 10px #95a5a6;
+    border-right: solid 10px #95a5a6;
+    border-bottom: solid 20px #95a5a6 ;
+    td {
+      padding: 10px 0px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 40px;
+      width: 16.5%;
+      span {
+        font-size: 10px;
+        padding-top: 7px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+    .hallaverages, .thebesthalls {
+    color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: -170px;
+    border-left: solid 10px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #F4D03F ;
+    td {
+      padding: 10px 0px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 40px;
+      width: 16.5%;
+      span {
+        font-size: 10px;
+        padding-top: 7px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        font-weight: 600
+      }
+    }
+  }
+  .text2, .theworst {
+    color: #444;
+    width: 100%;
+    background: #95a5a6;
+    margin-top: -70px;
+    border-left: solid 10px #95a5a6;
+    border-right: solid 10px #95a5a6;
+    border-bottom: solid 20px #95a5a6 ;
+    td {
+      padding: 10px 0px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 40px;
+      width: 16.5%;
+      span {
+        font-size: 10px;
+        padding-top: 7px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 2px;
+      }
+    }
+  }
+  .uniaverages, .theworsthalls {
+    color: #444;
+    width: 100%;
+    background: #fff;
+    margin-top: -240px;
+    border-left: solid 10px #fcfcfc;
+    border-right: solid 10px #fcfcfc;
+    border-bottom: solid 20px #F4D03F ;
+    td {
+      padding: 10px 0px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 40px;
+      width: 16.5%;
+      span {
+        font-size: 10px;
+        padding-top: 7px;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        font-weight: 600
+
+      }
+    }
+  }
+    .leftrighttable {
+        font-size: 13px;
+        text-align: center;
+      margin-top: -150px;
+      margin-bottom: -40px;
+          width: 100%;
+  .col1 {
+    width: 50%;
+    strong {
+      text-transform: uppercase;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #444;
+      text-align: center;
+      line-height: 0px;
+      margin-top: 0px;
+    }
+    vertical-align: top !important;
+    padding: 40px !important;
+    display: table-cell;
+    left: 0;
+    background: #fcfcfc;
+    color: #111;
+    border-right: solid 10px #F4D03F ;
+    border-bottom: solid 30px #F4D03F ;
+  }
+  .col2 {
+    strong {
+      text-transform: uppercase;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #444;
+      text-align: center;
+      line-height: 2px;
+      margin-top: 0px;
+    }
+    vertical-align: top !important;
+    padding: 40px;
+    margin: 10px;
+    display: table-cell;
+    background: #fcfcfc;
+    color: #111;
+    border-left: solid 10px #F4D03F ;
+    border-bottom: solid 30px #F4D03F ;
+  }
+  strong {
+    font-family: "times", sans-serif;
+    text-align: right;
+    display: block;
+    margin-top: -20px;
+  }
+}
+}
+}
+@media (max-width:500px) { 
+h2{
+font-size: 18px !important;
+}
+  .hallaverages, .uniaverages {
+    td{
+      font-size: 15px !important;
+      span{
+        font-size: 6px !important;
+        line-height: 1.8 !important;
+       letter-spacing: 0.2px !important
+      }
+    }
+  } 
+  .thebesthalls, .theworsthalls {
+    td{
+      font-size: 15px !important;
+      span{
+        font-size: 6px !important;
+        line-height: 1.8 !important;
+       letter-spacing: 0.2px !important
+      }
+    }
+  } 
+  .hallicons {
+    td{
+      font-size: 15px !important;
+      span{
+        font-size: 6px !important;
+        line-height: 1.8 !important;
+       letter-spacing: 0.2px !important
+      }
+    }
+  } 
+  .leftrighttable {
+    td {
+      display: block !important;
+      width: 100% !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+      border: 0 !important;
+      margin-left: 0 !important;
+    }
+  }
+  }
+}
+/* END OF HALLS SECTION */

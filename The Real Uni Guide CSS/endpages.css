@@ -1,0 +1,67 @@
+/* END PAGE SECTION */
+#end-page-section, #lo-end-page-section {
+  background-color: #1BA39C        ;
+  border: 0px solid;
+  border-color: #1BA39C   ;
+  p{
+    font-size: 20px;
+    color: #fff 
+  }
+  h1{
+    color: #1BA39C   ;
+      font-size: 80px;
+    line-height: 0px;
+    font-weight: 800
+  }
+  /* CUSTOM CSS */
+  .sqs-block-horizontalrule hr {
+    margin: 0 auto;
+    height: 5px !important;
+    background: #fff;
+  }
+}
+/* END OF END PAGE SECTION */
+
+
+
+
+
+
+
+
+
+/* REMINDER */
+#reminder-section{
+  background: #F64747 ;
+  p{
+    color: #fff 
+  }
+  h2{
+    color: #fff 
+  }
+  h1{
+    font-size: 15px;
+    color: #fff
+  }
+  .theshopmainbutton{
+    a {
+      color: #fff;
+      font-size: 30px
+    }
+    a:hover{
+      color: #222 ;
+      font-size: 30px;
+    }
+  }
+  .newsletter-form-wrapper {
+    background: #444  ;
+  .newsletter-form {
+    .newsletter-form-button{
+      background: #F4D03F ;
+      border: 0px;
+        color: #222
+    }
+  }
+}
+}
+/* END OF REMINDER */

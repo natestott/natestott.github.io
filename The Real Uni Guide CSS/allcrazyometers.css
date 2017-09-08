@@ -1,0 +1,936 @@
+#crazyometer-0-section,
+#crazyometer-1-section,
+#crazyometer-2-section,
+#crazyometer-3-section,
+#crazyometer-4-section,
+#crazyometer-5-section,
+#crazyometer-6-section,
+#crazyometer-7-section,
+#crazyometer-8-section,
+#crazyometer-9-section,
+#crazyometer-10-section,
+#crazyometer-11-section,
+#crazyometer-12-section,
+#crazyometer-13-section,
+#crazyometer-14-section,
+#crazyometer-15-section,
+#crazyometer-16-section {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* WARWICK */
+
+
+#crazyometer-0-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.wacrazyometer.go { 
+width:42%;
+animation:wacrazyometer 2s ease-out;
+}
+  
+@keyframes wacrazyometer { 
+0%{ width:0px;} 
+100%{ width:42%;}
+}
+
+@-moz-keyframes wacrazyometer { 
+0%{ width:0px;} 
+100%{ width:42%;}
+}
+
+@-webkit-keyframes wacrazyometer { 
+0%{ width:0px;} 
+100%{ width:42%;}
+
+}
+@media (max-width : 667px) {
+.wacrazyometer {
+width:42%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF WARWICK */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LANCASTER */
+
+
+#crazyometer-1-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.lacrazyometer.go { 
+width:76%;
+animation:lacrazyometer 2s ease-out;
+}
+  
+@keyframes lacrazyometer { 
+0%{ width:0px;} 
+100%{ width:76%;}
+}
+
+@-moz-keyframes lacrazyometer { 
+0%{ width:0px;} 
+100%{ width:76%;}
+}
+
+@-webkit-keyframes lacrazyometer { 
+0%{ width:0px;} 
+100%{ width:76%;}
+
+}
+@media (max-width : 667px) {
+.lacrazyometer {
+width:76%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF LANCASTER */
+
+
+
+
+
+
+
+
+
+
+
+/* DURHAM */
+
+
+#crazyometer-2-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.ducrazyometer.go { 
+width:71%;
+animation:ducrazyometer 2s ease-out;
+}
+  
+@keyframes ducrazyometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-moz-keyframes ducrazyometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+}
+
+@-webkit-keyframes ducrazyometer { 
+0%{ width:0px;} 
+100%{ width:71%;}
+
+}
+@media (max-width : 667px) {
+.ducrazyometer {
+width:71%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF DURHAM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXETER */
+
+
+#crazyometer-3-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.excrazyometer.go { 
+width:64%;
+animation:excrazyometer 2s ease-out;
+}
+  
+@keyframes excrazyometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+
+@-moz-keyframes excrazyometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+}
+
+@-webkit-keyframes excrazyometer { 
+0%{ width:0px;} 
+100%{ width:64%;}
+
+}
+@media (max-width : 667px) {
+.excrazyometer {
+width:64%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF EXETER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAMBRIDGE WHICH IS CAM NOT CA BTW */
+
+
+#crazyometer-4-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.camcrazyometer.go { 
+width:54%;
+animation:camcrazyometer 2s ease-out;
+}
+  
+@keyframes camcrazyometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-moz-keyframes camcrazyometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+}
+
+@-webkit-keyframes camcrazyometer { 
+0%{ width:0px;} 
+100%{ width:54%;}
+
+}
+@media (max-width : 667px) {
+.camcrazyometer {
+width:54%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF CAMBRIDGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UWE */
+
+
+#crazyometer-5-section,
+
+{  
+     background: #ECF0F1 ;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #F4D03F;
+  h2{
+    color: #52B3D9;
+    font-size: 50px;
+      @media (max-width: 500px){
+    font-size: 30px !important
+    }
+  }
+  h1{
+    color: #52B3D9 
+  }
+  h3{
+    color: #52B3D9 
+  }
+ /* CRAZY-O-METER SKILL BAR */
+.crazyometer {
+width:100%;
+position:relative;
+ul { 
+list-style-type: none;
+padding: 0;
+li { 
+margin-bottom: 18px; 
+background: #DADFE1 !important; 
+height:40px; 
+border-radius:3px;
+em {
+position: absolute;
+right: 0;
+font-size: 20px;
+line-height: 13px;
+margin-top: 13px !important;
+margin-right: 14px;
+opacity: 1;
+  color: #222
+}
+span { 
+height:40px;
+opacity: 0.75;
+position:absolute;
+border-radius: 3px;
+}
+}
+  @media (min-width:668px) {
+    h3 {
+          font-size: 16px !important;
+    }
+  }
+  h3:after {
+    content: "IT WAS WILD";
+    position: absolute !important;
+    right: 3px !important;
+    text-align: right !important;
+    display: inline-block !important;
+  }
+}
+  @media (max-width:667px) {
+    h3 {
+      font-size: 8px !important;
+    }
+  }
+ 
+
+  .average1:before {
+  content: "x";
+  font-size: 0;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  margin-left: 58%;
+  width: 100px !important;
+  height: 48px;
+  z-index: 999999;
+  border-left: solid 2px #111;
+  padding-left: 0px;
+}
+  .average1:after {
+  content: "UK: 58%";
+  position: absolute;
+  top: -22px;
+  left: -30px;
+    text-align: center;
+  margin-left: 58%;
+  width: 60px !important;
+    line-height: 11px;
+  font-size: 10px;
+  height: 65px;
+  padding-left: 4px;
+}
+
+
+
+
+
+.uwcrazyometer.go { 
+width:69%;
+animation:uwcrazyometer 2s ease-out;
+}
+  
+@keyframes uwcrazyometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+
+@-moz-keyframes uwcrazyometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+}
+
+@-webkit-keyframes uwcrazyometer { 
+0%{ width:0px;} 
+100%{ width:69%;}
+
+}
+@media (max-width : 667px) {
+.uwcrazyometer {
+width:69%;
+animation:bar1 2s ease-out;
+}
+}
+
+
+
+
+
+}
+}
+/* END OF UWE */
+
+
+
+
+
+
+
+
+
+
