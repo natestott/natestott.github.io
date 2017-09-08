@@ -1,0 +1,33 @@
+.skills {
+	width:100%;
+position:relative;
+}
+
+#label {
+	position: relative;
+	text-align: center;
+	color: red;
+	font-style: initial;
+	letter-spacing: -0.5px;
+	margin-bottom: 10px;
+	height: 20px
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+	display: inline-block;
+}
+
+#circleValue1, #circleValue2, #circleValue3, #circleValue4  {
+	display: block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	color: red;
+	font-style: initial;
+	letter-spacing: -0.5px;
+}
+
+@media (max-width : 500px) {
+.skills {
+	width: 300px
+}
