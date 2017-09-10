@@ -8,6 +8,7 @@ background-color: #111;
 h1, h2, p {
  color: #fff;
   font-family: arial;
+ text-align: center;
 }
 
 h1 {
@@ -21,6 +22,7 @@ text-align: center;
 }
 
 #center {
-text-align: center;
+ width: 100%;
+ text-align: center;
 }
 
