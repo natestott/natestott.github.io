@@ -1,7 +1,13 @@
 body {
-border: 20px solid teal;
+border: 10px solid teal;
 display: ;
 margin: 0px;
+background-color: #111;
+}
+
+h1, h2, p {
+ color: #fff;
+  font-family: arial;
 }
 
 h1 {
@@ -10,11 +16,11 @@ text-align: center;
 }
 
 h2 {
-font-size: 40px;
+font-size: 20px;
 text-align: center;
 }
 
-a {
-display: block;
+#center {
+text-align: center;
 }
 
