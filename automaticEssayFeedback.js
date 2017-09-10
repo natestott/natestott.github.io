@@ -79,7 +79,7 @@ function wordCount(){
     $("#demo11").html(wom + " word count")
 }
 
-
+/* DISABLED
 function numberOfTitleKeywords() {
     var titleKeywords = $("#titleKeywords").text().split(" ");
     var text = $("#essay").html();
@@ -91,6 +91,7 @@ function numberOfTitleKeywords() {
     $("#misc").html(counter + " title keywords used" + titleKeywords);
 }
 }
+*/
 
 
 /* FEEDBACK */
@@ -219,6 +220,7 @@ function checkForRhetoricalQuestions() {
     };
     };
 
+/* DISABLED
 function checkForTitleKeywords(){
     var titleKeywords = $("#TitleKeywords").html().split(" ");
     var text = $("#essay").text();
@@ -234,9 +236,10 @@ function checkForTitleKeywords(){
         $("#demo14").html("No title keywords used.").css('color', 'red');
     }
 }
+*/
 
 
-/*INPUT MODIFICATION*/
+//INPUT MODIFICATION//
 $(function(){
     insertBreaks();
     highlightBadLanguage();
@@ -245,22 +248,22 @@ $(function(){
     highlightSubHeadings();
 })
 
-/*FEEDBACK*/
+//FEEDBACK//
 $(function(){
     checkForBadLanguage();
     checkForArgue();
     checkForRhetoricalQuestions();
-    /*checkParagraphLength()*/
+    //checkParagraphLength()//
     checkIntroLength();
     checkConcLength();
-    /*checkForSubHeadings();*/
-    checkForTitleKeywords();
+    //checkForSubHeadings();//
+    //checkForTitleKeywords();//
     checkConcTransitionWords();
 })
 
-/*OTHER INFO*/
+//OTHER INFO//
 $(function(){
-    numberOfTitleKeywords();
+    //numberOfTitleKeywords();//
     numberOfParagraphs();
     wordCount();
 })
