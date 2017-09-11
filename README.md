@@ -1,5 +1,7 @@
 # natestott.github.io
 
+<meta http-equiv="refresh" content="0; url=http://therealuniguide.co.uk/" />
+
 <a href="therealuniguide.co.uk">The Real Uni Guide</a>
 <a href="natestott.co.uk">Automatic Essay Feedback</a>
 <a href="natestott.github.io/circularSkillBars.html">Circular Skill Bars Plugin</a>
